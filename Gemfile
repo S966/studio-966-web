@@ -4,6 +4,8 @@ ruby '2.0.0'
 
 gem 'middleman', '~>3.1.6'
 
+gem 'rack-contrib', '~> 1.1'
+
 gem 'foreman'
 gem 'puma'
 

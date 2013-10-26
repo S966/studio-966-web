@@ -4,6 +4,9 @@ ruby '2.0.0'
 
 gem 'middleman', '~>3.1.6'
 
+gem 'foreman'
+gem 'puma'
+
 group :assets do
     gem 'therubyracer', '~> 0.12' unless RUBY_PLATFORM.match(/darwin|mswin/)
 end
@@ -14,7 +17,4 @@ group :development do
 
     # For faster file watcher updates on Windows:
     gem 'wdm', '~> 0.1.0', :platforms => [:mswin, :mingw]
-
-    gem 'foreman'
-    gem 'thin'
 end

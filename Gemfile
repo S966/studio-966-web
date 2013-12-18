@@ -9,6 +9,8 @@ gem 'rack-contrib', '~> 1.1'
 gem 'foreman'
 gem 'puma'
 
+gem 'zurb-foundation', '~> 4.3'
+
 group :assets do
     gem 'therubyracer', '~> 0.12' unless RUBY_PLATFORM.match(/darwin|mswin/)
 end

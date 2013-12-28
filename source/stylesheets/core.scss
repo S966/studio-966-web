@@ -1,0 +1,64 @@
+body { background: #FDFDFD; }
+
+header {
+    &:before {
+        background: #2ecc71;
+        content: "";
+        display: block;
+        height: 1px;
+    }
+
+    background: #fff;
+    height: em-calc(65);
+
+    h2 {
+        font-size: em-calc(22);
+        margin-top: em-calc(12);
+        text-transform: lowercase;
+
+        a {
+            color: #3ea5ce;
+            color: #666666;
+            //font-family: Lora, 'Source Sans Pro', serif;
+            font-family: 'Source Sans Pro', 'Lucida Grande', Tahoma, Verdana, sans-serif;
+            font-style: italic;
+            font-weight: bold;
+        }
+    }
+
+    nav {
+        margin-top: em-calc(20);
+        text-transform: uppercase;
+
+        li {
+            list-style: none;
+            float: left;
+            margin-left: em-calc(50);
+        }
+
+        a {
+            color: rgba(0, 0, 0, 0.6);
+            font-size: em-calc(14);
+            font-family: 'Source Sans Pro', 'Lucida Grande', Tahoma, Verdana, sans-serif;
+            font-weight: 600 !important;
+        }
+    }
+}
+
+.content {
+    h1 {
+        color: #333;
+        font-family: Lora, 'Source Sans Pro', serif;
+        font-size: em-calc(50);
+        font-style: italic;
+        font-weight: bold;
+        margin: em-calc(15) 0 em-calc(8) 0;
+        text-transform: lowercase;
+    }
+
+    p {
+        font-family: 'Source Sans Pro', 'Lucida Grande', Tahoma, Verdana, sans-serif;
+        font-size: em-calc(20);
+        font-weight: normal;
+    }
+}

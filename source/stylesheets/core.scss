@@ -62,3 +62,53 @@ header {
         font-weight: normal;
     }
 }
+
+footer {
+    background: #000;
+    color: #999;
+    padding: 2em 0;
+    text-align: center;
+    text-transform: lowercase;
+
+    a {
+        color: #999;
+        &:hover { color: #eee; }
+    }
+
+    ul { list-style: none; }
+
+    li { display: inline-block; }
+
+    .social a {
+        font-size: em-calc(28);
+        margin: 0 em-calc(6);
+
+        &:hover { color: #fff; }
+    }
+
+    .fi-social-behance { color: #0e87f7; }
+    .fi-social-facebook { color: #4862a3; }
+    .fi-social-github { color: #171515; }
+    .fi-social-github { color: #999; }
+    .fi-social-lastfm { color: #ca2518; }
+    .fi-social-linkedin { color: #0077b5; }
+    .fi-social-twitter { color: #00acee; }
+
+
+    .navigation {
+        ul { padding-bottom: em-calc(10); }
+
+        li:after {
+            color: #333;
+            content: "•";
+            font-size: em-calc(14);
+            padding: 0 em-calc(15);
+        }
+        li:last-child:after { content: ""; padding: 0; }
+    }
+
+    p {
+        font-size: em-calc(14);
+        margin-bottom: em-calc(0);
+    }
+}

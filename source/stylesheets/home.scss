@@ -1,0 +1,69 @@
+.index .content {
+    p strong { text-transform: lowercase; }
+
+    .intro {
+        border-bottom: 1px dotted #ccc;
+        margin-bottom: em-calc(35);
+    }
+    .intro * {
+        text-align: center;
+    }
+
+    .who-am-i {
+
+        .short-bio { margin-bottom: em-calc(14); }
+
+        #what-i-do {
+            list-style: none; 
+            @include clearfix();
+
+            li {
+                height: em-calc(200);
+                width: em-calc(300);
+                border: 3px double #eee;
+                border-radius: 6px;
+                padding-top: em-calc(25);
+
+                float: left;
+                margin-right: em-calc(35);
+                &:last-child { margin: 0; }
+
+                text-align: center;
+
+                img {
+                    display: block;
+                    margin: auto;
+                }
+
+                strong {
+                    display: block;
+                    margin-top: em-calc(10);
+                    text-transform: lowercase;
+                }
+            }
+        }
+    }
+
+    .work-and-reading {
+        margin-top: em-calc(14);
+
+        p { border-bottom: 1px dotted #ccc; }
+
+        .recent-work .columns {}
+
+        .currently-reading {
+            .book {
+                @include clearfix();
+                line-height: em-calc(20);
+                padding-bottom: em-calc(6);
+
+                img { float: left; padding-right: em-calc(10); }
+                span { display: block; }
+
+                &:last-child { padding: 0; }
+            }
+        }
+    }
+}
+
+.index footer { margin-top: em-calc(46); }

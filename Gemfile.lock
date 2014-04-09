@@ -69,6 +69,7 @@ GEM
       sprockets-helpers (~> 1.0.0)
       sprockets-sass (~> 1.0.0)
     multi_json (1.8.2)
+    newrelic_rpm (3.7.1.182)
     puma (2.6.0)
       rack (>= 1.1, < 2.0)
     rack (1.5.2)
@@ -113,6 +114,7 @@ DEPENDENCIES
   foreman
   middleman (~> 3.1.6)
   middleman-livereload (~> 3.1.0)
+  newrelic_rpm
   puma
   rack-contrib (~> 1.1)
   therubyracer (~> 0.12)

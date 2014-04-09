@@ -11,6 +11,8 @@ gem 'puma'
 
 gem 'zurb-foundation', '~> 4.3'
 
+gem 'newrelic_rpm'
+
 group :assets do
     gem 'therubyracer', '~> 0.12' unless RUBY_PLATFORM.match(/darwin|mswin/)
 end

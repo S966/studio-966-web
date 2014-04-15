@@ -31,7 +31,6 @@ GEM
     http_parser.rb (0.5.3)
     i18n (0.6.5)
     kramdown (1.2.0)
-    libv8 (3.16.14.3)
     listen (1.3.1)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
@@ -56,6 +55,8 @@ GEM
       rack-test (~> 0.6.1)
       thor (>= 0.15.2, < 2.0)
       tilt (~> 1.3.6)
+    middleman-gh-pages (0.0.3)
+      rake (> 0.9.3)
     middleman-livereload (3.1.0)
       em-websocket (>= 0.2.0)
       middleman-core (>= 3.0.2)
@@ -79,12 +80,12 @@ GEM
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
+    rake (10.2.2)
     rb-fsevent (0.9.3)
     rb-inotify (0.9.2)
       ffi (>= 0.5.0)
     rb-kqueue (0.2.0)
       ffi (>= 0.5.0)
-    ref (1.0.5)
     sass (3.2.12)
     sprockets (2.10.0)
       hike (~> 1.2)
@@ -96,9 +97,6 @@ GEM
     sprockets-sass (1.0.2)
       sprockets (~> 2.0)
       tilt (~> 1.1)
-    therubyracer (0.12.0)
-      libv8 (~> 3.16.14.0)
-      ref
     thor (0.18.1)
     tilt (1.3.7)
     uglifier (2.1.2)
@@ -113,10 +111,10 @@ PLATFORMS
 DEPENDENCIES
   foreman
   middleman (~> 3.1.6)
+  middleman-gh-pages
   middleman-livereload (~> 3.1.0)
   newrelic_rpm
   puma
   rack-contrib (~> 1.1)
-  therubyracer (~> 0.12)
   wdm (~> 0.1.0)
   zurb-foundation (~> 4.3)

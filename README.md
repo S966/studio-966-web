@@ -1,4 +1,7 @@
-usmanbashir.com
+966.io Homepage
 ===============
 
-My personal website.
+LICENSE
+===============
+
+To be added

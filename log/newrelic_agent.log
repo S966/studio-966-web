@@ -25,3 +25,16 @@
 [04/17/14 10:48:17 +0300 Ramis-MacBook-Pro-3.local (46886)] INFO : Installing deferred Rack instrumentation
 [04/17/14 10:48:17 +0300 Ramis-MacBook-Pro-3.local (46886)] INFO : Finished instrumentation
 [04/17/14 10:48:27 +0300 Ramis-MacBook-Pro-3.local (46886)] INFO : Doing deferred dependency-detection before Rack startup
+[04/21/14 16:31:33 +0300 Ramis-MacBook-Pro-3.local (3880)] INFO : Starting the New Relic agent in "development" environment.
+[04/21/14 16:31:33 +0300 Ramis-MacBook-Pro-3.local (3880)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[04/21/14 16:31:33 +0300 Ramis-MacBook-Pro-3.local (3880)] INFO : Reading configuration from 
+[04/21/14 16:31:33 +0300 Ramis-MacBook-Pro-3.local (3880)] ERROR : Unable to read configuration file : (<unknown>): control characters are not allowed at line 1 column 1
+[04/21/14 16:31:33 +0300 Ramis-MacBook-Pro-3.local (3880)] INFO : Enabling the Request Sampler.
+[04/21/14 16:31:33 +0300 Ramis-MacBook-Pro-3.local (3880)] INFO : Environment: development
+[04/21/14 16:31:33 +0300 Ramis-MacBook-Pro-3.local (3880)] INFO : No known dispatcher detected.
+[04/21/14 16:31:33 +0300 Ramis-MacBook-Pro-3.local (3880)] INFO : Application: development
+[04/21/14 16:31:33 +0300 Ramis-MacBook-Pro-3.local (3880)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[04/21/14 16:31:33 +0300 Ramis-MacBook-Pro-3.local (3880)] INFO : Installing Net instrumentation
+[04/21/14 16:31:33 +0300 Ramis-MacBook-Pro-3.local (3880)] INFO : Installing deferred Rack instrumentation
+[04/21/14 16:31:33 +0300 Ramis-MacBook-Pro-3.local (3880)] INFO : Finished instrumentation
+[04/21/14 16:31:50 +0300 Ramis-MacBook-Pro-3.local (3880)] INFO : Doing deferred dependency-detection before Rack startup

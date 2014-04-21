@@ -11,8 +11,6 @@ gem 'foreman'
 
 gem 'puma'
 
-gem 'zurb-foundation', '~> 4.3'
-
 gem 'newrelic_rpm'
 
 group :assets do

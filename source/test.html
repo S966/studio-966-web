@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="javascripts/foundation.min.js"></script>
+<script src="javascripts/foundation/foundation.orbit.js"></script>
+
+<script>
+$(document).foundation({
+orbit: {
+animation: 'slide',
+timer_speed: 1000,
+pause_on_hover: true,
+resume_on_mouseout: true,
+animation_speed: 500,
+navigation_arrows: false,
+bullets: false,
+next_on_click: true
+}
+});
+</script>
+<ul  data-orbit>
+<li><img src="images/banners/currrva_01.jpeg
+" alt="slide 1" />
+<div class="orbit-caption">
+Caption One.
+</div>
+</li>
+<li class="active">
+<img src="images/banners/currrva_01.jpeg
+" alt="slide 2" />
+<div class="orbit-caption">
+Caption Two.
+</div>
+</li>
+<li>
+<img src="images/banners/currrva_01.jpeg
+" alt="slide 3" />
+<div class="orbit-caption">
+Caption Three.
+</div>
+</li>
+</ul>

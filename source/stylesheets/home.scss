@@ -19,14 +19,32 @@
         background: url('../images/banners/banner_01.jpeg') no-repeat;
     }
     .banner-caption {
-        margin-top: 10em;
-        background: rgba(0,0,0,.3);
+        position: absolute;
+        margin-top: 140px;
+        background: rgba(0,0,0,.6);
         border-radius: 5px;
-        padding: 20px;
-        height: 200px;
+        width: 500px;
+        padding: 20px 20px;
     }
     h1 {
         color: white;
+    }
+    h2 {
+        color: #e67e22;
+        font-family: 'PT Sans Caption',sans-serif;
+        font-weight: 700;
+    }
+    h3{
+        color: #e67e22; 
+        letter-spacing: -1.4px;
+        font-size: 24px;
+        font-weight: 700;
+        font-family: 'PT Sans Caption',sans-serif;
+        text-transform: uppercase;
+    }
+    p {
+        color: white;
+        font-family: 'Libre Baskerville', 'serif';
     }
 }
 

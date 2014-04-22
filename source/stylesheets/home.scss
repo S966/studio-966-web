@@ -5,16 +5,23 @@
     &:after { clear: both; }
 }
 
-.index .content {
-    .full-width {
-        img { 
-            width: 100%;
-            height: auto;
-        }
+.banner li {
+    .banner-1 {
+        display: block;
+        max-width: 100%;
+        height: 500px;
+        background: url('../images/banners/currrva_01.jpeg');
     }
-    p strong { text-transform: lowercase; }
+    .banner-2 {
+        display: block;
+        max-width: 100%;
+        height: 500px;
+        background: url('../images/banners/currrva_01.jpeg');
+    }
+}
 
-
+.index .content {
+   p strong { text-transform: lowercase; }
     .intro {
         border-bottom: 1px dotted #ccc;
         margin-bottom: em-calc(35);

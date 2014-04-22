@@ -18,6 +18,16 @@
         height: 450px;
         background: url('../images/banners/banner_01.jpeg') no-repeat;
     }
+    .banner-caption {
+        margin-top: 10em;
+        background: rgba(0,0,0,.3);
+        border-radius: 5px;
+        padding: 20px;
+        height: 200px;
+    }
+    h1 {
+        color: white;
+    }
 }
 
 .index .content {

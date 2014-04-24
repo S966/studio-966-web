@@ -1,6 +1,6 @@
 //= require jquery
-//= foundation.min.js
 //= require_tree .
+
 $(document).foundation({
     orbit: {
         animation: 'slide',

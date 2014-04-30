@@ -20,6 +20,14 @@ header {
     nav {
         text-transform: uppercase;
     }
+    
+    li a {
+        font-family: 'PT Sans Caption',sans-serif !important;
+        text-transform: uppercase !important;
+    }
+    .right li a:hover {
+        background: #db5653 !important;
+    }
 }
 
 .content {

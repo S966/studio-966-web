@@ -1,5 +1,4 @@
-body { background: #fff; }
-body { background: #fff; }
+body { background: #f1f0ea;}
 
 header {
     &:before {
@@ -9,43 +8,10 @@ header {
         height: 2px;
     }
 
-    background: #0d0a06;
-    height: em-calc(65);
-
-    h2 {
-        font-size: em-calc(22);
-        margin-top: em-calc(12);
-        text-transform: lowercase;
-
-        a {
-            color: #3ea5ce;
-            color: #666666;
-            //font-family: Lora, 'Source Sans Pro', serif;
-            font-family: 'Source Sans Pro', 'Lucida Grande', Tahoma, Verdana, sans-serif;
-            font-style: italic;
-            font-weight: bold;
-        }
-    }
 
     nav {
-        margin-top: em-calc(20);
         text-transform: uppercase;
 
-        li {
-            list-style: none;
-            float: left;
-            margin-left: em-calc(50);
-        }
-
-        a {
-            color: #efeeee;
-            font-size: em-calc(14);
-            font-family: 'Source Sans Pro', 'Lucida Grande', Tahoma, Verdana, sans-serif;
-            font-weight: 600 !important;
-        }
-        a:hover{
-            color:#3dc1c8;
-        }
     }
 }
 

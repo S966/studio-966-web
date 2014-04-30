@@ -1,14 +1,20 @@
 %header
-  .row
-    .large-4.columns
-      %h2
-        = link_to "966.io", "/", class: "url fn"
-    .large-8.columns
-      %nav.right
-        %ul
+  .contain-to-grid.sticky
+    %nav.top-bar{:data => {:"top-bar" => ""}}
+      %ul.title-area
+        %li.name
+          %h1
+            = link_to "966.io", "/", class: "url fn"
+          <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+        %li.toggle-topbar.menu-icon
+          = link_to "Menu", "#", class: "url fn"
+      .section.top-bar-section
+        %ul.right
           %li
-            = link_to "About Us", "/about-us"
+            = link_to "About Us" , "/about-us", class: "url fn"
           %li
-            = link_to "Work", "/work"
+            = link_to "Our Work" , "/work", class: "url fn"
           %li
-            = link_to "Contact Us", "/contact-us"
+            = link_to "Contact Us" , "/contact", class: "url fn"
+
+

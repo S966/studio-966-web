@@ -1,6 +1,7 @@
 //= require jquery
 //= require_tree .
 
+
 $(document).foundation({
     orbit: {
         animation: 'slide',
@@ -15,5 +16,5 @@ $(document).foundation({
         navigation_arrows: true,
         slide_number: false,
                 }
-           });
+    });
 

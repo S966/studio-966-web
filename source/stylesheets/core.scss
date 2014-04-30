@@ -1,4 +1,14 @@
-body { background: #f1f0ea;}
+body {
+    background: #f1f0ea;
+    font-family: 'Crimson Text','serif';
+}
+h1,h2,h3,h4,h5,h6{
+        font-family: 'PT Sans Caption',sans-serif;
+}
+
+.menu-icon, .top-bar-section ul{
+        font-family: 'PT Sans Caption',sans-serif !important;
+    }
 
 header {
     &:before {
@@ -7,11 +17,8 @@ header {
         display: block;
         height: 2px;
     }
-
-
     nav {
         text-transform: uppercase;
-
     }
 }
 
@@ -19,7 +26,6 @@ header {
     min-height: 600px;
     h1 {
         color: #333;
-        font-family: Lora, 'Source Sans Pro', serif;
         font-size: em-calc(50);
         font-style: italic;
         font-weight: bold;
@@ -28,7 +34,6 @@ header {
     }
 
     p {
-        font-family: 'Source Sans Pro', 'Lucida Grande', Tahoma, Verdana, sans-serif;
         font-size: em-calc(20);
         font-weight: normal;
     }

@@ -1,5 +1,6 @@
 //= require jquery
-//= require_tree .
+//= require modernizr
+//= require foundation.min
 
 
 $(document).foundation({

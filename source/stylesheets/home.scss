@@ -68,7 +68,19 @@
 
     .who-am-i {
 
-        .short-bio { margin-bottom: em-calc(14); }
+        .short-bio { 
+            margin-bottom: em-calc(14); 
+            margin-top: em-calc(24);
+            height: 126px !important;
+        }
+
+        h4, h3, h2 {
+            text-transform: uppercase;
+        }
+        
+        p {
+            font-size: 1em;
+        }
 
         #what-i-do {
             list-style: none; 

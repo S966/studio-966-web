@@ -31,7 +31,6 @@ header {
 }
 
 .content {
-    min-height: 600px;
     h1 {
         color: #333;
         font-size: em-calc(50);
@@ -44,6 +43,14 @@ header {
     p {
         font-size: em-calc(20);
         font-weight: normal;
+    }
+    .call-to-action {
+        letter-spacing: -1.5px;
+        
+        a {
+            color: #db5653;
+            text-transform: uppercase;
+        }
     }
 }
 

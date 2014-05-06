@@ -67,19 +67,45 @@
     }
 
     .who-am-i {
-
-        .short-bio { 
+        .short-bio{ 
             margin-bottom: em-calc(14); 
             margin-top: em-calc(24);
             height: 126px !important;
+
+            h4, h3, h2 {
+                text-transform: uppercase;
+            }
+
+            h3 {
+                color: #352f59;
+            }
+            
+            p {
+                color: #555;
+                font-size: 1.3em;
+            }
         }
 
-        h4, h3, h2 {
-            text-transform: uppercase;
-        }
-        
-        p {
-            font-size: 1em;
+            .right-column {
+                margin-top: em-calc(24);
+                h4 {
+                    margin-top: -9px;
+                    text-transform: uppercase;
+                    color: #352f59
+                }
+                h5 {
+                    color: #e64d39
+                }
+                p {
+                    font-size: em-calc(14);
+                    color: #555;
+                    margin-top: -5px;
+                }
+
+                .featured-blog {
+                    line-height: 10%;
+                }
+            }
         }
 
         #what-i-do {
@@ -133,7 +159,7 @@
             }
         }
     }
-}
+
 
 .index footer { margin-top: em-calc(46); }
 

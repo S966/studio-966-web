@@ -6,29 +6,73 @@ h1,h2,h3,h4,h5,h6{
         font-family: 'PT Sans',sans-serif;
 }
 
-.menu-icon, .top-bar-section ul{
-        font-family: 'PT Sans',sans-serif !important;
-    }
-
 header {
     &:before {
-        background: #db5653;
+        background: #23D7DB;
         content: "";
         display: block;
-        height: 2px;
+        height: 10px;
+    }
+    .contain-to-grid {
+        background: white;
     }
     nav {
         text-transform: uppercase;
     }
-    
+    .top-bar {
+        height: 81px;
+        background: white;
+         .top-bar-section {
+             
+             li:not(.has-form) a:not(.button) {
+             background: white;
+             color: #ed6555;
+             font-size: 1.4125rem;
+         }
+
+             ul {
+                 background: white;
+                 margin-top: 17px;
+                 }
+             }
+         
+         .name h1 a {
+             color: #ed6555;
+             font-size: 2rem;
+             margin-top: 19px;
+         }
+
+         .toggle-topbar.menu-icon a{
+             color: blue;
+         }
+         .toggle-topbar.menu-icon a::after {
+             box-shadow: 0 10px 0 1px blue,0 16px 0 1px blue ,0 22px 0 1px blue;
+         }
+    }
+
+    .right li {
+        
+        
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin-left: 17px;
+        border: 2px solid transparent;
+    }
+    .right li:hover{
+        }
+
     li a {
         font-family: 'PT Sans',sans-serif !important;
         text-transform: uppercase !important;
     }
-    .right li a:hover {
-        background: #db5653 !important;
+    .right li:hover {
+        border: 2px solid #ed6555;
+        background: white;
     }
-}
+    
+
+
+    }
 
 .content {
     h1 {
@@ -104,3 +148,4 @@ footer {
         margin-bottom: em-calc(0);
     }
 }
+

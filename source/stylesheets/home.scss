@@ -68,9 +68,9 @@
 
     .who-am-i {
         .short-bio{ 
-            margin-bottom: em-calc(14); 
+            margin-bottom: em-calc(34); 
             margin-top: em-calc(24);
-            height: 126px !important;
+            text-align: center;
 
             h4, h3, h2 {
                 text-transform: uppercase;
@@ -84,6 +84,7 @@
                 color: #555;
                 font-size: 1.3em;
             }
+
         }
 
             .right-column {
@@ -225,4 +226,22 @@
     color: #49445f;
 }
 
+.circle {
+    border-radius: 50%; 
+    width: 200px;
+    height: 200px; 
+    margin: 0 auto;
+    background: url('http://placehold.it/200x200.jpg');
+    margin-bottom: 20px;
+        }
 
+.value-prop {
+    h3 {
+        text-align: center;
+    }
+    
+    p {
+        text-align: center;
+        font-size: 16px;
+    }
+}

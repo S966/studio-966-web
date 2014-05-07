@@ -231,8 +231,8 @@
     width: 200px;
     height: 200px; 
     margin: 0 auto;
-    background: url('http://placehold.it/200x200.jpg');
     margin-bottom: 20px;
+    background: url('http://placehold.it/200x200.jpg');
         }
 
 .value-prop {
@@ -244,4 +244,13 @@
         text-align: center;
         font-size: 16px;
     }
+
+    .details-matter .circle {
+        background: url('../images/details-matter.jpg');
+    }
+    .robust-software .circle, .mobile-first .circle {
+        background: url('../images/robust-software.jpg');
+        background-position: 45% 0%;
+    }
+
 }

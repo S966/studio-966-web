@@ -164,11 +164,23 @@
 .about-us-banner {
     height: 450px;
     background: url("../images/966-about-us-header.jpg") no-repeat;
-
+    background-position: contain;
+    @media only screen and (max-width: 40em){
+            background-position: 10% 0;
+        }
     h1 {
         background: rgba(0,0,0,0.7);
+        background-position: contain;
         color: white;
         margin-top: 250px;
+        @media only screen and (max-width: 50em){
+            margin-top: 239px;
+        }
+        @media only screen and (max-width: 40em){
+            margin-top: 379px;
+            font-size: 1.4em;
+        }
+        margin-left: -15px;
         margin-left: -15px;
         margin-top: 288px;
         width: 600px;

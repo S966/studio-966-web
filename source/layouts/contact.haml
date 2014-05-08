@@ -1,0 +1,48 @@
+.!!! 5
+%html
+  %head
+    %meta{ charset: "utf-8" }
+    
+    / Always force latest IE rendering engine or request Chrome Frame
+    %meta{ content: "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible" }
+    
+    -# Use title if it's in the page YAML frontmatter
+    %title= current_page.data.title || "966.io Studios | We Are The Best!"
+
+    -# Set the viewport width to device width for mobile
+    %meta{ name: "viewport", content: "width=device-width, initial-scale=1.0" }
+
+    %link{ rel: "stylesheet", href: "http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic", type: "text/css" }
+    %link{ rel: "stylesheet", href: "http://fonts.googleapis.com/css?family=Lora:700italic", type: "text/css" }
+    %link{ rel: "stylesheet", href: "http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700", type: "text/css" }
+    %link{ rel: "stylesheet", href: "http://fonts.googleapis.com/css?family=Libre+Baskerville", type: "text/css" }
+    %link{ rel: "stylesheet", href: "http://fonts.googleapis.com/css?family=Crimson+Text|Pathway+Gothic+One", type: "text/css" }
+    = stylesheet_link_tag "application"
+  
+  %body{ class: page_classes }
+    = partial "layouts/unsupported_browsers"
+    = partial "layouts/header"
+    = yield
+    = partial "layouts/footer"
+
+    = javascript_include_tag "all"
+
+.map-966
+  .full-width.banner
+    .row.map-contact-us
+      .contact-us
+        %h2
+          Contact Us
+        %p
+          We love to hear from our clients and customers.
+        %p.email-contact
+          Inquiries:
+          %a{ href: "mailto:hello@966.io", class: "heartbeat", alt: "e-mail us"} hello@966.io
+
+        %p.twitter-contact
+          Twitter: 
+          %a{ href: "http://twitter.com/966io", class: "heartbeat", alt: "e-mail us"} @966io
+        %p.address-contact
+          3rd floor, Al-Murjan Building
+        %p.address-contact
+          Hail Street, Jeddah, Saudi Arabia

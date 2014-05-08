@@ -21,6 +21,25 @@
     = partial "layouts/unsupported_browsers"
     = partial "layouts/header"
     = yield
+    .map-966
+      .full-width.banner
+        .row.map-contact-us
+          .contact-us
+            %h2
+              Contact Us
+            %p
+              We love to hear from our clients and customers.
+            %p.email-contact
+              Inquiries:
+              %a{ href: "mailto:hello@966.io", class: "heartbeat", alt: "e-mail us"} hello@966.io
+
+            %p.twitter-contact
+              Twitter: 
+              %a{ href: "http://twitter.com/966io", class: "heartbeat", alt: "e-mail us"} @966io
+            %p.address-contact
+              3rd floor, Al-Murjan Building
+            %p.address-contact
+              Hail Street, Jeddah, Saudi Arabia
     = partial "layouts/footer"
 
     = javascript_include_tag "all"

@@ -7,7 +7,6 @@
 .full-width {
     display: block;
     width: 100%;
-    height: 450px;
     width: 1400px;
     margin: 0 auto;
 }
@@ -280,30 +279,4 @@
     }
 
 }
-.map-966 {
-    background: url('../images/studio-966-location.png');
-    position: relative;
-    height: 469px;
-
-    .contact-us {
-        background: white;
-        position: absolute;
-        top: 50%;
-        height: 300px;
-        right: 10%;
-        margin-top: -150px;
-        padding: 0 40px;
-
-        .email-contact {
-            margin-top: 36px;
-            line-height: 1px;
-        }
-
-        .address-contact {
-            line-height: 1px;
-            margin-top: 36px;
-        }
-    }
-}
-
 

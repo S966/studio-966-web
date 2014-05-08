@@ -77,7 +77,6 @@ header {
         border: 2px solid #ed6555;
         background: white;
     }
-    
 
 
     }
@@ -105,7 +104,56 @@ header {
         }
     }
 }
+.map-966 {
+    background: url('../images/studio-966-location.png');
+    position: relative;
+    height: 469px;
 
+    .contact-us {
+        background: white;
+        position: absolute;
+        top: 50%;
+        height: 300px;
+        right: 10%;
+        margin-top: -150px;
+        padding: 0 40px;
+
+        .email-contact {
+            margin-top: 36px;
+            line-height: 1px;
+        }
+
+        .address-contact {
+            line-height: 1px;
+            margin-top: 36px;
+        }
+    }
+}
+
+.newsletter {
+    background: #f4b860;
+    
+    .newsletter-description {
+        margin-top: 15px;
+    }
+    .newsletter-description .h2 {
+        color:#ef9818 !important;
+    }
+
+    .newsletter-description .p {
+        font-size:1.5em; 
+    }
+
+    .form {
+        margin-top: 15px;
+    }
+    .button {
+        background-color: #ed6555 !important;
+    }
+    .button:hover, .button:focus {
+        background-color: #eb503e!important;
+    }
+}
 footer {
     background: #23D7DB;
     color: white;

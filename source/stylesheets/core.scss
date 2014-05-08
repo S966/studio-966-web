@@ -101,15 +101,17 @@ header {
 }
 
 footer {
-    background: #000;
-    color: #999;
+    background: #23D7DB;
+    color: white;
     padding: 2em 0;
     text-align: center;
     text-transform: lowercase;
+    font-size: 1.4em;
 
     a {
-        color: #999;
-        &:hover { color: #eee; }
+        color: white;
+        font-size: 2em;
+        &:hover { color: #ed6555;}
     }
 
     ul { list-style: none; }
@@ -117,12 +119,12 @@ footer {
     li { display: inline-block; }
 
     .social a {
-        font-size: em-calc(28);
+        font-size: em-calc(48);
         margin: 0 em-calc(6);
 
         &:hover { color: #fff; }
     }
-
+.banner
     .fi-social-behance { color: #0e87f7; }
     .fi-social-facebook { color: #4862a3; }
     .fi-social-github { color: #171515; }
@@ -137,9 +139,9 @@ footer {
         ul { padding-bottom: em-calc(10); }
 
         li:after {
-            color: #333;
+            color: #ed6555;
             content: "•";
-            font-size: em-calc(14);
+            font-size: em-calc(34);
             padding: 0 em-calc(15);
         }
         li:last-child:after { content: ""; padding: 0; }
@@ -151,3 +153,20 @@ footer {
     }
 }
 
+
+/* Some CSS Transitions */
+
+@-webkit-keyframes thumb {
+    0% { -webkit-transform: scale(1); }
+    50% { -webkit-transform: scale(0.9); }
+    100% { -webkit-transform: scale(1); }
+}
+
+.heartbeat:hover
+{
+    -webkit-animation-name: thumb;
+    -webkit-animation-duration: 200ms;
+    -webkit-transform-origin:50% 50%;
+    -webkit-animation-iteration-count: 2;
+    -webkit-animation-timing-function: linear;
+}

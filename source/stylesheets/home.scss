@@ -161,9 +161,6 @@
         }
     }
 
-
-.index footer { margin-top: em-calc(46); }
-
 .about-us-header {
     padding-bottom: 1em;
     color: #555;
@@ -205,6 +202,8 @@
     }
 
 }
+
+
 
 /* Coming Soon Page CSS */
 .comingsoon {
@@ -254,3 +253,20 @@
     }
 
 }
+.map-966 {
+    background: url('../images/studio-966-location.png');
+    position: relative;
+    height: 469px;
+
+    .contact-us {
+        background: white;
+        position: absolute;
+        top: 50%;
+        height: 300px;
+        right: 10%;
+        margin-top: -150px;
+        padding: 0 40px;
+    }
+}
+
+

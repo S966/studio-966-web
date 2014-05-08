@@ -33,6 +33,9 @@ header {
              background: white;
              color: #ed6555;
              font-size: 1.4125rem;
+            @media only screen and (max-width: 65em){
+                font-size: .91rem;
+                }
          }
 
              ul {

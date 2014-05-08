@@ -161,6 +161,21 @@
         }
     }
 
+.about-us-banner {
+    height: 450px;
+    background: url("../images/966-about-us-header.jpg") no-repeat;
+
+    h1 {
+        background: rgba(0,0,0,0.7);
+        color: white;
+        margin-top: 250px;
+        margin-left: -15px;
+        margin-top: 288px;
+        width: 600px;
+        padding: 20px;
+
+    }
+}
 .about-us-header {
     padding-bottom: 1em;
     color: #555;

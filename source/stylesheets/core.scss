@@ -220,7 +220,7 @@ footer {
 }
 
 
-/* Some CSS Transitions 
+/* Some CSS Transitions*/
 
 @-webkit-keyframes thumb {
     0% { -webkit-transform: scale(1); }
@@ -231,9 +231,8 @@ footer {
 .heartbeat:hover
 {
     -webkit-animation-name: thumb;
-    -webkit-animation-duration: 200ms;
-    -webkit-transform-origin:50% 50%;
+    -webkit-animation-duration: 400ms;
+    -webkit-transform-origin:50% 70%;
     -webkit-animation-iteration-count: 2;
     -webkit-animation-timing-function: linear;
 }
-*/

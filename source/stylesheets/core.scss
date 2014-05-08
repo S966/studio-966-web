@@ -132,12 +132,23 @@ header {
 
 .newsletter {
     background: #f4b860;
-    
+    position: relative; 
     .newsletter-description {
         margin-top: 15px;
     }
-    .newsletter-description .h2 {
-        color:#ef9818 !important;
+    .newsletter-description h2 {
+        color: #ad6c0c;
+        text-transform: uppercase;
+    }
+
+    p {
+        color: #4d4d4d;
+    }
+
+    .full-width {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
     }
 
     .newsletter-description .p {
@@ -149,6 +160,7 @@ header {
     }
     .button {
         background-color: #ed6555 !important;
+        float: right; 
     }
     .button:hover, .button:focus {
         background-color: #eb503e!important;

@@ -17,6 +17,9 @@ header {
     }
     .contain-to-grid {
         background: white;
+    .expanded .title-area {
+         background: white;
+     }
     }
     nav {
         text-transform: uppercase;
@@ -45,10 +48,10 @@ header {
          }
 
          .toggle-topbar.menu-icon a{
-             color: blue;
+             color: #ed6555;
          }
          .toggle-topbar.menu-icon a::after {
-             box-shadow: 0 10px 0 1px blue,0 16px 0 1px blue ,0 22px 0 1px blue;
+             box-shadow: 0 10px 0 1px #ed6555 ,0 16px 0 1px #ed6555,0 22px 0 1px #ed6555;
          }
     }
 

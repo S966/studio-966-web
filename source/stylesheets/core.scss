@@ -192,7 +192,15 @@ footer {
 
     ul { list-style: none; }
 
-    li { display: inline-block; }
+    li { display: inline-block; 
+        @media only screen and (max-width: 40em) {
+            display: block;
+            
+        }
+    }
+
+    .social li { display: inline-block;}
+    
 
     .social a {
         font-size: em-calc(48);
@@ -219,6 +227,15 @@ footer {
             content: "•";
             font-size: em-calc(34);
             padding: 0 em-calc(15);
+            @media only screen and (max-width: 40em) {
+                font-size: em-calc(16);
+                display: block;
+                content: " ";
+                margin-top: 15px;
+
+                }
+
+            
         }
         li:last-child:after { content: ""; padding: 0; }
     }

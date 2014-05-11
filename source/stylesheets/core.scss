@@ -108,7 +108,9 @@ header {
     background: url('../images/studio-966-location.png');
     position: relative;
     height: 469px;
-
+    @media only screen and (max-width: 65em){
+        background-position: 50% 0%;
+    }
     .contact-us {
         background: white;
         position: absolute;
@@ -118,7 +120,7 @@ header {
         margin-top: -150px;
         padding: 0 40px;
 
-        .email-contact {
+       .email-contact {
             margin-top: 36px;
             line-height: 1px;
         }
@@ -127,6 +129,14 @@ header {
             line-height: 1px;
             margin-top: 36px;
         }
+         @media only screen and (max-width: 40em){
+        width: 300px;
+        height: 384px;
+        .email-contact, .address-contact {
+            line-height: 22px;
+        }
+    }
+
     }
 }
 

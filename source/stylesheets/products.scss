@@ -1,0 +1,41 @@
+.our-work-banner {
+    background: url("../images/products-banner.jpg") no-repeat;
+    h1 {
+        color: black;
+        text-align: center;
+    }
+
+}
+
+.product {
+    height: 450px;
+
+    .currrva {
+        background: url("../images/products/currrva_bg.jpg") no-repeat;
+        height: 450px;
+        background-position: 0% 40%;
+
+        .icon {
+            width: 259px;
+            margin: 40px 0px;
+            img {
+                margin-bottom: 20px;
+            }
+            h3 {
+                color: #fff;
+            }
+            p {
+                color: #eee;
+            }
+        }
+        .background {
+            img {
+                margin-top: 20px;
+                width: 400px;;
+                max-width: none !important;
+            }
+        }
+    }
+}
+
+

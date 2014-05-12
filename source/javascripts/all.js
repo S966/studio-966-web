@@ -1,6 +1,7 @@
 //= require jquery
 //= require modernizr
 //= require foundation.min
+//= require wufoo
 
 
 $(document).foundation({

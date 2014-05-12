@@ -246,7 +246,15 @@ footer {
     }
 }
 
-
+.hire-us-form {
+    li {
+        list-style-type: none;
+    }
+    .button {
+        float: right;
+        background-color: #ed6555 !important
+    }
+}
 /* Some CSS Transitions*/
 
 @-webkit-keyframes thumb {

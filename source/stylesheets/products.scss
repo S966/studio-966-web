@@ -7,6 +7,13 @@
 
 }
 
+.our-work-header {
+    h2 {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
+
 .product {
     height: 450px;
 
@@ -16,11 +23,11 @@
         background-position: 0% 40%;
 
         .icon {
-            width: 259px;
             margin: 40px 0px;
             img {
+                margin-top: 30px;
                 margin-bottom: 20px;
-            }
+                }
             h3 {
                 color: #fff;
             }
@@ -30,10 +37,15 @@
         }
         .background {
             img {
-                margin-top: 20px;
-                width: 400px;;
-                max-width: none !important;
+                float: left;
+                @media only screen and (max-width: 40em) { 
+                    display:none; 
+                }
             }
+            @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+   img { float: right;}     
+
+    } 
         }
     }
 }

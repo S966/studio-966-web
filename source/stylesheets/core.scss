@@ -10,29 +10,52 @@ h1,h2,h3,h4,h5,h6{
 
 header {
     &:before {
-        background: #23D7DB;
+        background: url('../images/header_repeat.jpg');
         content: "";
         display: block;
-        height: 10px;
+        height: 5px;
+
+
+         @media only screen and (max-width: 40.063em){
+            background: url('../images/header_repeat_mobile.jpg');
+        }
     }
+
     .contain-to-grid {
         background: white;
     .expanded .title-area {
          background: white;
      }
     }
+    .name {
+        img {
+            width: 80%;
+            margin-top: 14px;
+            @media only screen and (max-width: 40em) { 
+                width: 40%;
+                margin-left: 25px;
+            }
+
+            @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+        
+                width: 50%;
+                margin-top: 25px;
+                margin-left: 25px;
+                }
+            }
+    }
     nav {
         text-transform: uppercase;
     }
     .top-bar {
-        height: 81px;
+        height: 100px;
         background: white;
          .top-bar-section {
              
              li:not(.has-form) a:not(.button) {
              background: white;
              color: #ed6555;
-             font-size: 1.4125rem;
+             font-size: 1.6125rem;
             @media only screen and (max-width: 65em){
                 font-size: .91rem;
                 }
@@ -40,8 +63,18 @@ header {
 
              ul {
                  background: white;
-                 margin-top: 17px;
+                 margin-top: 26px;
+
+                 @media only screen and (max-width: 40.063em){
+                     margin-top: 48px;
                  }
+
+                 @media only screen and (min-width: 40.063em) and (max-width: 50em) {
+                     margin-top: -19px;
+                 }
+    }
+
+
              }
          
          .name h1 a {
@@ -50,6 +83,9 @@ header {
              margin-top: 19px;
          }
 
+         .toggle-topbar.menu-icon {
+             margin-top: -9px;
+             }
          .toggle-topbar.menu-icon a{
              color: #ed6555;
          }

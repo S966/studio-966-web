@@ -2,6 +2,8 @@
 //= require modernizr
 //= require foundation.min
 //= require wufoo
+//= require typography
+//= require iefix
 
 
 $(document).foundation({
@@ -20,3 +22,4 @@ $(document).foundation({
                 }
     });
 
+jQuery(document).ready(function($) {$(".article_title").lettering().fitText(0.645);});

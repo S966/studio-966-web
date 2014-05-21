@@ -19,11 +19,11 @@ url('../fonts/mensch-thin-wf.svg') format('svg');
 font-weight: normal;
 font-style: normal;
 }
-
+.row .banner-text, .row .banner-our-products {width: inherit !important;}
 
 h3, .article_title, .article_title:hover{color: #f8f7e5;}
 
-.banner{ width:100%; margin:10% 0 11.5%; height: 0px!important;}
+.banner{ width:100%; margin:10% 0 4.5%; height: 0px!important;}
 
 .banner h1{display: inline-block; }
 
@@ -32,14 +32,14 @@ text-align: center;
 font: 100px/1 'MenschThin';
 width: 100%;
 text-transform: uppercase;
-color: #fdce25;
+color: #f4b860;
 margin-left: -.53em;
-margin-top: -.059em;
+margin-top: -.459em;
 position: absolute;
 text-shadow: 0px 0px 30px rgba(235, 191, 16, 0),
 0px 0px 30px rgba(235, 191, 16, 0),
-1px 1px 0px  #f8f7e5,
-1px -1px 0px  #fdce25;
+1px 1px 0px  #f4b860,
+1px -1px 0px  #f4b860;
 }
 
 .article_title span{position: absolute; zoom: 1; display: -moz-inline-stack; display: inline-block; z-index: 1;}
@@ -57,7 +57,7 @@ text-shadow: 0px 0px 10px rgba(235, 191, 16, 1),
 0px 0px 30px rgba(235, 191, 16, 1),
 0px 0px 40px rgba(235, 191, 16, 1),
 0px 0px 50px rgba(235, 191, 16, 1);
-color: #fdce25;
+color: #f4b860;
 }
 
 
@@ -141,5 +141,5 @@ rgba(0, 0, 0, .5) .05em .05em,
 rgba(0, 0, 0, .7) .07em .07em;
 }
 
-.postheader{background: url(../yellow.png) repeat-x center top;}
-.postheader{height: 450px; color: #f8f7e5;background: #2b2a29 url(../yellow.png) repeat center top; }
+.postheader{background: url(images/../yellow.jpg) repeat-x center top;}
+.full-banner{height: 650px; color: #f8f7e5;background: #2b2a29 url(../images/noise.png) repeat center top; }

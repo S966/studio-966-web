@@ -1,3 +1,32 @@
+
+.banner-text {
+    margin-top: 80px;
+    margin-bottom: 40px !important;
+    
+    h2 {
+        color: #fdce25;
+        font-family: 'MenschThin';
+        text-align: center;
+    }
+}
+
+.banner-our-products {
+    .product-1, .product-2,.product-3 {
+        margin: 10px;
+        height: 200px;
+        border-radius: 50px;
+        margin-right: 10px;
+        border: 3px dotted #fdce25;
+
+        h1 {
+            color: #fdce25;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 900%;
+            font-family: 'MenschBold';
+        }
+    }
+}
 .our-work-banner {
     background: url("../images/products-banner.jpg") no-repeat;
     h1 {
@@ -15,11 +44,14 @@
 }
 
 .product {
-    height: 450px;
-
+    height: 370px;
+    overflow: hidden;
     .currrva {
-        background: url("../images/products/currrva_bg.jpg") no-repeat;
-        height: 450px;
+        background: url('../images/product-background2.png');
+        position: absolute;
+        overflow: hidden;
+        padding-top: 0px;
+        height: 650px;
         background-position: 0% 40%;
 
         .icon {
@@ -27,12 +59,14 @@
             img {
                 margin-top: 30px;
                 margin-bottom: 20px;
+
                 }
             h3 {
-                color: #fff;
+                color: black;
             }
             p {
-                color: #eee;
+                color: black;
+                font-size: 14pt;
             }
         }
         .background {
@@ -50,4 +84,89 @@
     }
 }
 
+.ribbon-green {
+    font: bold 15px Sans-Serif;
+    height: 39px;
+    width: 400px;
+    color: #333;
+    text-align: center;
+    text-shadow: rgba(255,255,255,0.5) 0px 1px 0px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform:    rotate(-45deg);
+    -ms-transform:     rotate(-45deg);
+    -o-transform:      rotate(-45deg);
+    position: relative;
+    padding: 7px 0;
+    left: -90px;
+    top: 76px;
+    background-color: #BFDC7A;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#BFDC7A), to(#8EBF45)); 
+    background-image: -webkit-linear-gradient(top, #BFDC7A, #8EBF45); 
+    background-image:    -moz-linear-gradient(top, #BFDC7A, #8EBF45); 
+    background-image:     -ms-linear-gradient(top, #BFDC7A, #8EBF45); 
+    background-image:      -o-linear-gradient(top, #BFDC7A, #8EBF45); 
+    color: #6a6340;
+    -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+    -moz-box-shadow:    0px 0px 3px rgba(0,0,0,0.3);
+    box-shadow:         0px 0px 3px rgba(0,0,0,0.3);
+}
 
+.ribbon-green:before, .ribbon-green:after {
+    content: "";
+    border-top:   3px solid #6e8900;   
+    border-left:  3px solid transparent;
+    border-right: 3px solid transparent;
+    position:absolute;
+    bottom: -3px;
+}
+
+.ribbon-green:before {
+    left: 0;
+}
+.ribbon-green:after {
+    right: 0;
+}
+
+
+.ribbon-red {
+    font: bold 15px Sans-Serif;
+    height: 39px;
+    width: 400px;
+    color: #333;
+    text-align: center;
+    text-shadow: rgba(255,255,255,0.5) 0px 1px 0px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform:    rotate(-45deg);
+    -ms-transform:     rotate(-45deg);
+    -o-transform:      rotate(-45deg);
+    position: relative;
+    padding: 7px 0;
+    left: -90px;
+    top: 76px;
+    background-color: #ed6555;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ed6555), to(#f08a7f)); 
+    background-image: -webkit-linear-gradient(top, #ed6555, #f08a7f); 
+    background-image:    -moz-linear-gradient(top, #ed6555, #f08a7f); 
+    background-image:     -ms-linear-gradient(top, #ed6555, #f08a7f); 
+    background-image:      -o-linear-gradient(top, #ed6555, #f08a7f); 
+    color: #fff;
+    -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+    -moz-box-shadow:    0px 0px 3px rgba(0,0,0,0.3);
+    box-shadow:         0px 0px 3px rgba(0,0,0,0.3);
+}
+
+.ribbon-red:before, .ribbon-red:after {
+    content: "";
+    border-top:   3px solid #6e8900;   
+    border-left:  3px solid transparent;
+    border-right: 3px solid transparent;
+    position:absolute;
+    bottom: -3px;
+}
+
+.ribbon-red:before {
+    left: 0;
+}
+.ribbon-red:after {
+    right: 0;
+}

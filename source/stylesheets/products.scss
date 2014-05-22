@@ -1,32 +1,43 @@
 
 .banner-text {
-    margin-top: 80px;
-    margin-bottom: 40px !important;
+    margin-top: 20px;
+    margin-bottom: 20px !important;
     
     h2 {
-        color: #fdce25;
-        font-family: 'MenschThin';
+        color: white;
         text-align: center;
     }
 }
 
 .banner-our-products {
+    margin-top: 30px;
     .product-1, .product-2,.product-3 {
-        margin: 10px;
-        height: 200px;
-        border-radius: 50px;
-        margin-right: 10px;
-        border: 3px dotted #fdce25;
 
+        margin-bottom: 10px;
         h1 {
-            color: #fdce25;
+            color: black;
+            height: 230px;
+            border-radius: 50px;
+            border: 6px dotted black;
             text-align: center;
             vertical-align: middle;
-            font-size: 900%;
-            font-family: 'MenschBold';
+            font-size: 1100%;
         }
     }
-}
+    .product-2, .product-3 {
+        img {
+            border-radius: 40px;
+        }
+    }
+
+    .product-1 {
+            h3 {
+                text-transform: uppercase;
+                margin-top: 18px;
+                text-align: center;
+            }
+        }
+    }
 .our-work-banner {
     background: url("../images/products-banner.jpg") no-repeat;
     h1 {
@@ -37,14 +48,22 @@
 }
 
 .our-work-header {
+    padding-top: 45px;
+    border-top: 1px solid rgba(248, 247, 229, 0.3);
     h2 {
         margin-top: 40px;
         margin-bottom: 40px;
+        @media only screen and (max-width: 40em) { 
+            font-size: 14px !important;    
+
+} 
     }
 }
 
 .product {
-    height: 370px;
+
+    height: 600px;
+    width: auto;
     overflow: hidden;
     .currrva {
         background: url('../images/product-background2.png');
@@ -95,6 +114,16 @@
     -moz-transform:    rotate(-45deg);
     -ms-transform:     rotate(-45deg);
     -o-transform:      rotate(-45deg);
+    @media only screen and (max-width: 40em) { 
+    -webkit-transform: rotate(45deg);
+    -moz-transform:    rotate(45deg);
+    -ms-transform:     rotate(45deg);
+    -o-transform:      rotate(45deg);
+    left: 172px;
+    top: 28px;
+    height: 39px;
+    width: 200px;
+}
     position: relative;
     padding: 7px 0;
     left: -90px;
@@ -170,3 +199,4 @@
 .ribbon-red:after {
     right: 0;
 }
+

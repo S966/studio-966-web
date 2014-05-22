@@ -180,3 +180,139 @@
 [05/21/14 12:38:03 +0000 precise64 (3877)] INFO : Installing deferred Rack instrumentation
 [05/21/14 12:38:03 +0000 precise64 (3877)] INFO : Finished instrumentation
 [05/21/14 12:38:04 +0000 precise64 (3877)] INFO : Doing deferred dependency-detection before Rack startup
+[05/21/14 18:43:49 +0000 precise64 (4395)] INFO : Starting the New Relic agent in "development" environment.
+[05/21/14 18:43:49 +0000 precise64 (4395)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/21/14 18:43:49 +0000 precise64 (4395)] INFO : Reading configuration from 
+[05/21/14 18:43:49 +0000 precise64 (4395)] ERROR : Unable to read configuration file : Is a directory - /vagrant/studio-966-web
+[05/21/14 18:43:49 +0000 precise64 (4395)] INFO : Enabling the Request Sampler.
+[05/21/14 18:43:49 +0000 precise64 (4395)] INFO : Environment: development
+[05/21/14 18:43:49 +0000 precise64 (4395)] INFO : No known dispatcher detected.
+[05/21/14 18:43:49 +0000 precise64 (4395)] INFO : Application: development
+[05/21/14 18:43:49 +0000 precise64 (4395)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[05/21/14 18:43:49 +0000 precise64 (4395)] INFO : Installing Net instrumentation
+[05/21/14 18:43:49 +0000 precise64 (4395)] INFO : Installing deferred Rack instrumentation
+[05/21/14 18:43:49 +0000 precise64 (4395)] INFO : Finished instrumentation
+[05/21/14 18:44:21 +0000 precise64 (4395)] INFO : Doing deferred dependency-detection before Rack startup
+[05/22/14 06:36:10 +0000 precise64 (2803)] INFO : Starting the New Relic agent in "development" environment.
+[05/22/14 06:36:10 +0000 precise64 (2803)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/22/14 06:36:10 +0000 precise64 (2803)] INFO : Reading configuration from 
+[05/22/14 06:36:10 +0000 precise64 (2803)] ERROR : Unable to read configuration file : Is a directory - /vagrant/studio-966-web
+[05/22/14 06:36:10 +0000 precise64 (2803)] INFO : Enabling the Request Sampler.
+[05/22/14 06:36:10 +0000 precise64 (2803)] INFO : Environment: development
+[05/22/14 06:36:10 +0000 precise64 (2803)] INFO : No known dispatcher detected.
+[05/22/14 06:36:10 +0000 precise64 (2803)] INFO : Application: development
+[05/22/14 06:36:10 +0000 precise64 (2803)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[05/22/14 06:36:11 +0000 precise64 (2803)] INFO : Installing Net instrumentation
+[05/22/14 06:36:11 +0000 precise64 (2803)] INFO : Installing deferred Rack instrumentation
+[05/22/14 06:36:11 +0000 precise64 (2803)] INFO : Finished instrumentation
+[05/22/14 06:36:42 +0000 precise64 (2808)] INFO : Starting the New Relic agent in "development" environment.
+[05/22/14 06:36:42 +0000 precise64 (2808)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/22/14 06:36:42 +0000 precise64 (2808)] INFO : Reading configuration from 
+[05/22/14 06:36:42 +0000 precise64 (2808)] ERROR : Unable to read configuration file : Is a directory - /vagrant/studio-966-web
+[05/22/14 06:36:42 +0000 precise64 (2808)] INFO : Enabling the Request Sampler.
+[05/22/14 06:36:42 +0000 precise64 (2808)] INFO : Environment: development
+[05/22/14 06:36:42 +0000 precise64 (2808)] INFO : No known dispatcher detected.
+[05/22/14 06:36:42 +0000 precise64 (2808)] INFO : Application: development
+[05/22/14 06:36:42 +0000 precise64 (2808)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[05/22/14 06:36:43 +0000 precise64 (2808)] INFO : Installing Net instrumentation
+[05/22/14 06:36:43 +0000 precise64 (2808)] INFO : Installing deferred Rack instrumentation
+[05/22/14 06:36:43 +0000 precise64 (2808)] INFO : Finished instrumentation
+[05/22/14 06:38:09 +0000 precise64 (2812)] INFO : Starting the New Relic agent in "development" environment.
+[05/22/14 06:38:09 +0000 precise64 (2812)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/22/14 06:38:09 +0000 precise64 (2812)] INFO : Reading configuration from 
+[05/22/14 06:38:09 +0000 precise64 (2812)] ERROR : Unable to read configuration file : Is a directory - /vagrant/studio-966-web
+[05/22/14 06:38:09 +0000 precise64 (2812)] INFO : Enabling the Request Sampler.
+[05/22/14 06:38:09 +0000 precise64 (2812)] INFO : Environment: development
+[05/22/14 06:38:09 +0000 precise64 (2812)] INFO : No known dispatcher detected.
+[05/22/14 06:38:09 +0000 precise64 (2812)] INFO : Application: development
+[05/22/14 06:38:09 +0000 precise64 (2812)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[05/22/14 06:38:09 +0000 precise64 (2812)] INFO : Installing Net instrumentation
+[05/22/14 06:38:09 +0000 precise64 (2812)] INFO : Installing deferred Rack instrumentation
+[05/22/14 06:38:09 +0000 precise64 (2812)] INFO : Finished instrumentation
+[05/22/14 06:51:48 +0000 precise64 (2625)] INFO : Starting the New Relic agent in "development" environment.
+[05/22/14 06:51:48 +0000 precise64 (2625)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/22/14 06:51:48 +0000 precise64 (2625)] INFO : Reading configuration from 
+[05/22/14 06:51:48 +0000 precise64 (2625)] ERROR : Unable to read configuration file : Is a directory - /vagrant/studio-966-web
+[05/22/14 06:51:48 +0000 precise64 (2625)] INFO : Enabling the Request Sampler.
+[05/22/14 06:51:48 +0000 precise64 (2625)] INFO : Environment: development
+[05/22/14 06:51:48 +0000 precise64 (2625)] INFO : No known dispatcher detected.
+[05/22/14 06:51:48 +0000 precise64 (2625)] INFO : Application: development
+[05/22/14 06:51:48 +0000 precise64 (2625)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[05/22/14 06:51:48 +0000 precise64 (2625)] INFO : Installing Net instrumentation
+[05/22/14 06:51:48 +0000 precise64 (2625)] INFO : Installing deferred Rack instrumentation
+[05/22/14 06:51:48 +0000 precise64 (2625)] INFO : Finished instrumentation
+[05/22/14 06:51:51 +0000 precise64 (2625)] INFO : Doing deferred dependency-detection before Rack startup
+[05/22/14 06:54:01 +0000 precise64 (3030)] INFO : Starting the New Relic agent in "development" environment.
+[05/22/14 06:54:01 +0000 precise64 (3030)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/22/14 06:54:01 +0000 precise64 (3030)] INFO : Reading configuration from 
+[05/22/14 06:54:01 +0000 precise64 (3030)] ERROR : Unable to read configuration file : Is a directory - /vagrant/studio-966-web
+[05/22/14 06:54:01 +0000 precise64 (3030)] INFO : Enabling the Request Sampler.
+[05/22/14 06:54:01 +0000 precise64 (3030)] INFO : Environment: development
+[05/22/14 06:54:01 +0000 precise64 (3030)] INFO : No known dispatcher detected.
+[05/22/14 06:54:01 +0000 precise64 (3030)] INFO : Application: development
+[05/22/14 06:54:01 +0000 precise64 (3030)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[05/22/14 06:54:01 +0000 precise64 (3030)] INFO : Installing Net instrumentation
+[05/22/14 06:54:01 +0000 precise64 (3030)] INFO : Installing deferred Rack instrumentation
+[05/22/14 06:54:01 +0000 precise64 (3030)] INFO : Finished instrumentation
+[05/22/14 06:54:26 +0000 precise64 (3030)] INFO : Doing deferred dependency-detection before Rack startup
+[05/22/14 07:56:00 +0000 precise64 (21628)] INFO : Starting the New Relic agent in "development" environment.
+[05/22/14 07:56:00 +0000 precise64 (21628)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/22/14 07:56:00 +0000 precise64 (21628)] INFO : Reading configuration from 
+[05/22/14 07:56:00 +0000 precise64 (21628)] ERROR : Unable to read configuration file : Is a directory - /vagrant/studio-966-web
+[05/22/14 07:56:00 +0000 precise64 (21628)] INFO : Enabling the Request Sampler.
+[05/22/14 07:56:00 +0000 precise64 (21628)] INFO : Environment: development
+[05/22/14 07:56:00 +0000 precise64 (21628)] INFO : No known dispatcher detected.
+[05/22/14 07:56:00 +0000 precise64 (21628)] INFO : Application: development
+[05/22/14 07:56:00 +0000 precise64 (21628)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[05/22/14 07:56:00 +0000 precise64 (21628)] INFO : Installing Net instrumentation
+[05/22/14 07:56:00 +0000 precise64 (21628)] INFO : Installing deferred Rack instrumentation
+[05/22/14 07:56:00 +0000 precise64 (21628)] INFO : Finished instrumentation
+[05/22/14 07:57:39 +0000 precise64 (22530)] INFO : Starting the New Relic agent in "development" environment.
+[05/22/14 07:57:39 +0000 precise64 (22530)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/22/14 07:57:39 +0000 precise64 (22530)] INFO : Reading configuration from 
+[05/22/14 07:57:39 +0000 precise64 (22530)] ERROR : Unable to read configuration file : Is a directory - /vagrant/studio-966-web
+[05/22/14 07:57:39 +0000 precise64 (22530)] INFO : Enabling the Request Sampler.
+[05/22/14 07:57:39 +0000 precise64 (22530)] INFO : Environment: development
+[05/22/14 07:57:39 +0000 precise64 (22530)] INFO : No known dispatcher detected.
+[05/22/14 07:57:39 +0000 precise64 (22530)] INFO : Application: development
+[05/22/14 07:57:39 +0000 precise64 (22530)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[05/22/14 07:57:39 +0000 precise64 (22530)] INFO : Installing Net instrumentation
+[05/22/14 07:57:39 +0000 precise64 (22530)] INFO : Installing deferred Rack instrumentation
+[05/22/14 07:57:39 +0000 precise64 (22530)] INFO : Finished instrumentation
+[05/22/14 07:57:47 +0000 precise64 (22670)] INFO : Starting the New Relic agent in "development" environment.
+[05/22/14 07:57:47 +0000 precise64 (22670)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/22/14 07:57:47 +0000 precise64 (22670)] INFO : Reading configuration from 
+[05/22/14 07:57:47 +0000 precise64 (22670)] ERROR : Unable to read configuration file : Is a directory - /vagrant/studio-966-web
+[05/22/14 07:57:47 +0000 precise64 (22670)] INFO : Enabling the Request Sampler.
+[05/22/14 07:57:47 +0000 precise64 (22670)] INFO : Environment: development
+[05/22/14 07:57:47 +0000 precise64 (22670)] INFO : No known dispatcher detected.
+[05/22/14 07:57:47 +0000 precise64 (22670)] INFO : Application: development
+[05/22/14 07:57:47 +0000 precise64 (22670)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[05/22/14 07:57:47 +0000 precise64 (22670)] INFO : Installing Net instrumentation
+[05/22/14 07:57:47 +0000 precise64 (22670)] INFO : Installing deferred Rack instrumentation
+[05/22/14 07:57:47 +0000 precise64 (22670)] INFO : Finished instrumentation
+[05/22/14 07:59:22 +0000 precise64 (24010)] INFO : Starting the New Relic agent in "development" environment.
+[05/22/14 07:59:22 +0000 precise64 (24010)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/22/14 07:59:22 +0000 precise64 (24010)] INFO : Reading configuration from 
+[05/22/14 07:59:22 +0000 precise64 (24010)] ERROR : Unable to read configuration file : Is a directory - /vagrant/studio-966-web
+[05/22/14 07:59:22 +0000 precise64 (24010)] INFO : Enabling the Request Sampler.
+[05/22/14 07:59:22 +0000 precise64 (24010)] INFO : Environment: development
+[05/22/14 07:59:22 +0000 precise64 (24010)] INFO : No known dispatcher detected.
+[05/22/14 07:59:22 +0000 precise64 (24010)] INFO : Application: development
+[05/22/14 07:59:22 +0000 precise64 (24010)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[05/22/14 07:59:22 +0000 precise64 (24010)] INFO : Installing Net instrumentation
+[05/22/14 07:59:22 +0000 precise64 (24010)] INFO : Installing deferred Rack instrumentation
+[05/22/14 07:59:22 +0000 precise64 (24010)] INFO : Finished instrumentation
+[05/22/14 08:10:51 +0000 precise64 (2373)] INFO : Starting the New Relic agent in "development" environment.
+[05/22/14 08:10:51 +0000 precise64 (2373)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/22/14 08:10:51 +0000 precise64 (2373)] INFO : Reading configuration from 
+[05/22/14 08:10:51 +0000 precise64 (2373)] ERROR : Unable to read configuration file : Is a directory - /vagrant/studio-966-web
+[05/22/14 08:10:51 +0000 precise64 (2373)] INFO : Enabling the Request Sampler.
+[05/22/14 08:10:51 +0000 precise64 (2373)] INFO : Environment: development
+[05/22/14 08:10:51 +0000 precise64 (2373)] INFO : No known dispatcher detected.
+[05/22/14 08:10:51 +0000 precise64 (2373)] INFO : Application: development
+[05/22/14 08:10:51 +0000 precise64 (2373)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[05/22/14 08:10:51 +0000 precise64 (2373)] INFO : Installing Net instrumentation
+[05/22/14 08:10:51 +0000 precise64 (2373)] INFO : Installing deferred Rack instrumentation
+[05/22/14 08:10:51 +0000 precise64 (2373)] INFO : Finished instrumentation
+[05/22/14 08:11:24 +0000 precise64 (2373)] INFO : Doing deferred dependency-detection before Rack startup

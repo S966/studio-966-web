@@ -3,8 +3,8 @@
     %nav.top-bar{:data => {:"topbar" => ""}}
       %ul.title-area
         %li.name
-          %img(src="images/logo.png")
-            = link_to "", "/", class: "url fn"
+          - link_to 'index.html' do 
+            = image_tag 'images/logo.png'
           <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
         %li.toggle-topbar.menu-icon
           = link_to "Menu", "#", class: "url fn"
@@ -15,7 +15,7 @@
           %li
             = link_to "Products" , "/products", class: "url fn"
           %li
-            = link_to "Blog" , "/blog", class: "url fn"
+            //= link_to "Blog" , "/blog", class: "url fn"
           %li
             = link_to "Hire Us" , "/hire", class: "url fn"
 

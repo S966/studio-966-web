@@ -19,6 +19,7 @@ $(document).foundation({
         timer: false,
         navigation_arrows: true,
         slide_number: false,
+        navigation_arrows: false,
                 }
     });
 

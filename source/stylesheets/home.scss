@@ -282,10 +282,15 @@
     .details-matter .circle {
         background: url('../images/details-matter.jpg');
     }
-    .robust-software .circle, .mobile-first .circle {
+    .robust-software .circle {
         background: url('../images/robust-software.jpg');
         background-position: 45% 0%;
     }
+
+    .mobile-first .circle {
+        background: url('../images/mobile-first.png') no-repeat;
+    }
+
 
 }
 

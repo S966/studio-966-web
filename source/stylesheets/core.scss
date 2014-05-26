@@ -144,6 +144,9 @@ header {
     background: url('../images/studio-966-location.png') no-repeat;
     position: relative;
     height: 469px;
+    width: 1400px;
+    margin: auto;
+    text-align: center;
     @media only screen and (max-width: 65em){
         background-position: 50% 0%;
     }

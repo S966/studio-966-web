@@ -1,8 +1,14 @@
 @import 'foundation';
 @import 'foundation_and_overrides';
 body {
-    background: white;
+    background: #fafafa;
     font-family: 'Arvo', serif;
+
+}
+.main {
+    margin: auto;
+    background: white;
+    max-width: 1400px;
 }
 h1,h2,h3,h4,h5,h6{
         font-family: 'PT Sans',sans-serif;

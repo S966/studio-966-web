@@ -144,12 +144,16 @@ header {
     background: url('../images/studio-966-location.png') no-repeat;
     position: relative;
     height: 469px;
-    width: 1400px;
+    width: 1380px;
     margin: auto;
     text-align: center;
+    @media only screen and (min-width: 64.063em) and (max-width: 90em) { width: auto; } 
     @media only screen and (max-width: 65em){
         background-position: 50% 0%;
+        width: auto;
     }
+    @media only screen and (max-width: 40em) { width: auto;}
+
     .contact-us {
         background: white;
         position: absolute;

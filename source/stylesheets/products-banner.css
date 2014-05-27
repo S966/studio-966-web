@@ -19,7 +19,7 @@ url('../fonts/mensch-thin-wf.svg') format('svg');
 font-weight: normal;
 font-style: normal;
 }
-.row .banner-text, .row .banner-our-products {width: inherit !important;}
+.row .banner-text, .row .banner-our-products {width: none !important;}
 
 h3, .article_title, .article_title:hover{color: #23D7DE;}
 

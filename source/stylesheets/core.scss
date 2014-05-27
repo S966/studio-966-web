@@ -5,6 +5,35 @@ body {
     font-family: 'Arvo', serif;
 
 }
+
+.services_index {
+    .servicesnav {
+        border: 2px #eb6555 solid;
+    }
+    .servicesnav:hover {
+        border: 2px #eb6555 solid;
+    }
+}
+.products_index {
+    .productsnav {
+        border: 2px #eb6555 solid;
+    }
+    .productsnav:hover {
+        border: 2px #eb6555 solid;
+    }
+}
+
+.hire_index {
+    .hirenav {
+        border: 2px #eb6555 solid;
+    }
+    .hirenav:hover {
+        border: 2px #eb6555 solid;
+    }
+}
+
+
+
 .main {
     margin: auto;
     background: white;
@@ -69,7 +98,7 @@ header {
 
              ul {
                  background: white;
-                 margin-top: 26px;
+                 margin-top: 18px;
 
                  @media only screen and (max-width: 40.063em){
                      margin-top: 48px;

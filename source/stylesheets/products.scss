@@ -64,16 +64,20 @@ body .products {
 }
 
 .product {
-
+    @media only screen and (max-width: 40em) { 
+            height: 1050px;
+            }
+    @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+            height: 900px;
+            }
     width: 1400px;
     height: 664px;
     overflow: hidden;
     .currrva {
-        background: url('../images/product-background2.png');
         position: absolute;
         overflow: hidden;
         padding-top: 0px;
-        height: 650px;
+        height: auto;
         background-position: 0% 40%;
 
         .icon {
@@ -96,12 +100,14 @@ body .products {
                 float: left;
                 @media only screen and (max-width: 40em) { 
                     display:none; 
+                    }
                 }
-            }
-            @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-   img { float: right;}     
+                @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+            img {
+                    float: right;
+               }     
 
-    } 
+            } 
         }
     }
 }

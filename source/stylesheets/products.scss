@@ -122,17 +122,7 @@ body .products {
     -moz-transform:    rotate(-45deg);
     -ms-transform:     rotate(-45deg);
     -o-transform:      rotate(-45deg);
-    @media only screen and (max-width: 40em) { 
-    -webkit-transform: rotate(45deg);
-    -moz-transform:    rotate(45deg);
-    -ms-transform:     rotate(45deg);
-    -o-transform:      rotate(45deg);
-    left: 236px;
-    top: 28px;
-    height: 39px;
-    width: 200px;
-}
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#BFDC7A), to(#8EBF45)); 
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#BFDC7A), to(#8EBF45)); 
     background-image: -webkit-linear-gradient(top, #BFDC7A, #8EBF45); 
     background-image:    -moz-linear-gradient(top, #BFDC7A, #8EBF45); 
     background-image:     -ms-linear-gradient(top, #BFDC7A, #8EBF45); 

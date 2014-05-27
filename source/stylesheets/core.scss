@@ -23,6 +23,12 @@ body {
     }
 }
 
+@media only screen and (max-width: 40em) { 
+    .servicesnav, .productsnav, .hirenav {
+        border: 2px solid transparent !important;
+    }
+}
+
 .hire_index {
     .hirenav {
         border: 2px #eb6555 solid;
@@ -98,7 +104,7 @@ header {
 
              ul {
                  background: white;
-                 margin-top: 18px;
+                 margin-top: 28px;
 
                  @media only screen and (max-width: 40.063em){
                      margin-top: 48px;

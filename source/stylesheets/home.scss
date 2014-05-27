@@ -4,6 +4,10 @@
     &:before, &:after { content: " "; display: table; }
     &:after { clear: both; }
 }
+
+.index .main {
+    margin-bottom: 33px;
+}
 .full-width {
     display: block;
     width: 1400px;

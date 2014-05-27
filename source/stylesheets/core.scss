@@ -152,7 +152,7 @@ header {
     height: 469px;
     width: 1400px;
     margin: auto;
-    margin-top: 150px;
+    margin-top: -33px;
     text-align: center;
     @media only screen and (min-width: 64.063em) and (max-width: 90em) { width: auto; } 
     @media only screen and (max-width: 65em){
@@ -161,8 +161,6 @@ header {
     }
     @media only screen and (max-width: 40em) { width: auto;}
 
-    .map-banner{
-        margin: -11% 0 4.5%;}
     .contact-us {
         background: white;
         position: absolute;

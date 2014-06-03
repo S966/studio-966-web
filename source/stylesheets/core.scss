@@ -43,7 +43,7 @@ body {
 .main {
     margin: auto;
     background: white;
-    max-width: 1400px;
+    max-width: auto;
 }
 h1,h2,h3,h4,h5,h6{
         font-family: 'PT Sans',sans-serif;
@@ -183,9 +183,10 @@ header {
 }
 .map-966 {
     background: url('../images/studio-966-location.png') no-repeat;
+    background-position: center center; 
     position: relative;
     height: 469px;
-    width: 1400px;
+    width: auto;
     margin: auto;
     margin-top: -33px;
     @media only screen and (min-width: 64.063em) and (max-width: 90em) { width: auto; } 

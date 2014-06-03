@@ -137,6 +137,6 @@ rgba(0, 0, 0, .7) .07em .07em;
 .postheader{background: url(images/../pattern.png) repeat-x center top;}
 .full-banner{
     width: auto;
-    max-width: 1400px;
+    max-width: 1430px;
     height: 480px;
     background-image: url(../images/pattern.png) ,linear-gradient(45deg,#362d6c 0,#23D7DB 119%) ; }

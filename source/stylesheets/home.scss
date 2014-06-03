@@ -10,8 +10,8 @@
 }
 .full-width {
     display: block;
-    width: 1400px;
-    max-width: 100%;
+    width: auto;
+    max-width: 1430px;
     background-position: center center !important; 
     margin: 0 auto;
 }
@@ -190,7 +190,7 @@
     }
 
 .about-us-banner {
-    width: 1400px;
+    width: auto;
     background: url("../images/966-about-us-header.jpg") no-repeat;
     margin-top: -3px;
 }

@@ -1,0 +1,9 @@
+- wrap_layout :layout do 
+  .blog-main
+    .row.article-title
+      .large-10.columns.centered
+        %article
+          %h1
+            = current_page.data.title
+          = yield 
+

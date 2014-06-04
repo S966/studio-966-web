@@ -182,7 +182,7 @@ header {
     }
 }
 .map-966 {
-    background: url('../images/studio-966-location.png') no-repeat;
+    
     background-position: center center; 
     position: relative;
     height: 469px;
@@ -196,6 +196,9 @@ header {
     }
     @media only screen and (max-width: 40em) { width: auto;}
 
+    .map-banner {
+        max-width: none;
+    }
     .contact-us {
         background: white;
         position: absolute;

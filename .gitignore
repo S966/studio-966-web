@@ -10,6 +10,7 @@
 # Ignore the build directory
 /build
 /tmp
+/log
 
 # Ignore Sass' cache
 /.sass-cache
@@ -22,6 +23,8 @@
 newrelic.yml
 
 # Ignore tmp files
-/*.swp
+*.swp
+*.lock
+
 
 log/newrelic_agent.log

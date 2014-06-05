@@ -37,7 +37,7 @@ page '/comingsoon.html', :layout => "comingsoon"
 # activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
-# activate :livereload
+activate :livereload
 
 # Methods defined in the helpers block are available in templates
 # helpers do
@@ -45,6 +45,15 @@ page '/comingsoon.html', :layout => "comingsoon"
 #     "Helping"
 #   end
 # end
+
+# Activate blogging
+
+activate :blog do |blog|
+    blog.prefix = "blog"
+    blog.permalink = ":year/:month/:title.html"
+end
+
+page "blog/*", :layout=> :article_layout
 
 activate :directory_indexes
 
@@ -64,6 +73,12 @@ configure :build do
   # Minify Javascript on build
    activate :minify_javascript
 
+  # Enable gzip compression
+   activate :gzip
+
+  # Enable image compression
+   activate :imageoptim
+
   # Enable cache buster
   # activate :asset_hash
 
@@ -73,3 +88,5 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
+
+

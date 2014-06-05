@@ -20,3 +20,8 @@
 # Ignore foreman .env file
 .env
 newrelic.yml
+
+# Ignore tmp files
+/*.swp
+
+log/newrelic_agent.log

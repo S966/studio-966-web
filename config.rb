@@ -37,7 +37,7 @@ page '/comingsoon.html', :layout => "comingsoon"
 # activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
-activate :livereload
+#activate :livereload
 
 # Methods defined in the helpers block are available in templates
 # helpers do
@@ -61,7 +61,7 @@ activate :blog do |blog|
    blog.default_extension = ".markdown"
 
    blog.tag_template = "tag.html"
-   blog.calendar_template = "calendar.html"
+   #blog.calendar_template = "calendar.html"
 
    #blog.paginate = true
    #blog.per_page = 10

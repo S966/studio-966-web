@@ -47,3 +47,19 @@
 [07/21/14 10:52:36 +0000 precise64 (3134)] ERROR : Invalid license key, please contact support@newrelic.com
 [07/21/14 10:52:36 +0000 precise64 (3134)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
 [07/21/14 12:25:50 +0000 precise64 (3134)] INFO : Starting Agent shutdown
+[07/21/14 13:34:23 +0000 precise64 (3231)] INFO : Starting the New Relic agent in "development" environment.
+[07/21/14 13:34:23 +0000 precise64 (3231)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/21/14 13:34:23 +0000 precise64 (3231)] WARN : No configuration file found. Working directory = /vagrant/studio-966-web/source
+[07/21/14 13:34:23 +0000 precise64 (3231)] WARN : Looked in these locations (based on defaults): /vagrant/studio-966-web/source/config/newrelic.yml, /vagrant/studio-966-web/source/newrelic.yml, /home/vagrant/.newrelic/newrelic.yml, /home/vagrant/newrelic.yml
+[07/21/14 13:34:23 +0000 precise64 (3231)] INFO : Environment: development
+[07/21/14 13:34:23 +0000 precise64 (3231)] INFO : No known dispatcher detected.
+[07/21/14 13:34:23 +0000 precise64 (3231)] INFO : Application: development
+[07/21/14 13:34:23 +0000 precise64 (3231)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[07/21/14 13:34:23 +0000 precise64 (3231)] INFO : Installing Net instrumentation
+[07/21/14 13:34:23 +0000 precise64 (3231)] INFO : Installing deferred Rack instrumentation
+[07/21/14 13:34:23 +0000 precise64 (3231)] INFO : Installing Rack::Builder middleware instrumentation
+[07/21/14 13:34:23 +0000 precise64 (3231)] INFO : Finished instrumentation
+[07/21/14 13:34:34 +0000 precise64 (3231)] INFO : Doing deferred dependency-detection before Rack startup
+[07/21/14 13:34:35 +0000 precise64 (3231)] ERROR : Invalid license key, please contact support@newrelic.com
+[07/21/14 13:34:35 +0000 precise64 (3231)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[07/21/14 13:35:07 +0000 precise64 (3231)] INFO : Starting Agent shutdown

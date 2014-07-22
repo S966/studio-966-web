@@ -95,3 +95,18 @@
 [07/22/14 08:07:44 +0000 precise64 (3417)] ERROR : Invalid license key, please contact support@newrelic.com
 [07/22/14 08:07:44 +0000 precise64 (3417)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
 [07/22/14 11:19:17 +0000 precise64 (3417)] INFO : Starting Agent shutdown
+[07/22/14 11:23:14 +0000 precise64 (3818)] INFO : Starting the New Relic agent in "development" environment.
+[07/22/14 11:23:14 +0000 precise64 (3818)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/22/14 11:23:14 +0000 precise64 (3818)] WARN : No configuration file found. Working directory = /vagrant/studio-966-web/source
+[07/22/14 11:23:14 +0000 precise64 (3818)] WARN : Looked in these locations (based on defaults): /vagrant/studio-966-web/source/config/newrelic.yml, /vagrant/studio-966-web/source/newrelic.yml, /home/vagrant/.newrelic/newrelic.yml, /home/vagrant/newrelic.yml
+[07/22/14 11:23:14 +0000 precise64 (3818)] INFO : Environment: development
+[07/22/14 11:23:14 +0000 precise64 (3818)] INFO : No known dispatcher detected.
+[07/22/14 11:23:14 +0000 precise64 (3818)] INFO : Application: development
+[07/22/14 11:23:14 +0000 precise64 (3818)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[07/22/14 11:23:14 +0000 precise64 (3818)] INFO : Installing Net instrumentation
+[07/22/14 11:23:14 +0000 precise64 (3818)] INFO : Installing deferred Rack instrumentation
+[07/22/14 11:23:14 +0000 precise64 (3818)] INFO : Installing Rack::Builder middleware instrumentation
+[07/22/14 11:23:14 +0000 precise64 (3818)] INFO : Finished instrumentation
+[07/22/14 11:23:18 +0000 precise64 (3818)] INFO : Doing deferred dependency-detection before Rack startup
+[07/22/14 11:23:20 +0000 precise64 (3818)] ERROR : Invalid license key, please contact support@newrelic.com
+[07/22/14 11:23:20 +0000 precise64 (3818)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.

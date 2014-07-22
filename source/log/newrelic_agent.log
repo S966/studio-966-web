@@ -63,3 +63,35 @@
 [07/21/14 13:34:35 +0000 precise64 (3231)] ERROR : Invalid license key, please contact support@newrelic.com
 [07/21/14 13:34:35 +0000 precise64 (3231)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
 [07/21/14 13:35:07 +0000 precise64 (3231)] INFO : Starting Agent shutdown
+[07/22/14 00:39:28 +0000 precise64 (3307)] INFO : Starting the New Relic agent in "development" environment.
+[07/22/14 00:39:28 +0000 precise64 (3307)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/22/14 00:39:28 +0000 precise64 (3307)] WARN : No configuration file found. Working directory = /vagrant/studio-966-web/source
+[07/22/14 00:39:28 +0000 precise64 (3307)] WARN : Looked in these locations (based on defaults): /vagrant/studio-966-web/source/config/newrelic.yml, /vagrant/studio-966-web/source/newrelic.yml, /home/vagrant/.newrelic/newrelic.yml, /home/vagrant/newrelic.yml
+[07/22/14 00:39:28 +0000 precise64 (3307)] INFO : Environment: development
+[07/22/14 00:39:28 +0000 precise64 (3307)] INFO : No known dispatcher detected.
+[07/22/14 00:39:28 +0000 precise64 (3307)] INFO : Application: development
+[07/22/14 00:39:28 +0000 precise64 (3307)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[07/22/14 00:39:28 +0000 precise64 (3307)] INFO : Installing Net instrumentation
+[07/22/14 00:39:28 +0000 precise64 (3307)] INFO : Installing deferred Rack instrumentation
+[07/22/14 00:39:28 +0000 precise64 (3307)] INFO : Installing Rack::Builder middleware instrumentation
+[07/22/14 00:39:28 +0000 precise64 (3307)] INFO : Finished instrumentation
+[07/22/14 00:39:33 +0000 precise64 (3307)] INFO : Doing deferred dependency-detection before Rack startup
+[07/22/14 00:39:34 +0000 precise64 (3307)] ERROR : Invalid license key, please contact support@newrelic.com
+[07/22/14 00:39:34 +0000 precise64 (3307)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[07/22/14 08:07:37 +0000 precise64 (3307)] INFO : Starting Agent shutdown
+[07/22/14 08:07:39 +0000 precise64 (3417)] INFO : Starting the New Relic agent in "development" environment.
+[07/22/14 08:07:39 +0000 precise64 (3417)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/22/14 08:07:39 +0000 precise64 (3417)] WARN : No configuration file found. Working directory = /vagrant/studio-966-web/source
+[07/22/14 08:07:39 +0000 precise64 (3417)] WARN : Looked in these locations (based on defaults): /vagrant/studio-966-web/source/config/newrelic.yml, /vagrant/studio-966-web/source/newrelic.yml, /home/vagrant/.newrelic/newrelic.yml, /home/vagrant/newrelic.yml
+[07/22/14 08:07:39 +0000 precise64 (3417)] INFO : Environment: development
+[07/22/14 08:07:39 +0000 precise64 (3417)] INFO : No known dispatcher detected.
+[07/22/14 08:07:39 +0000 precise64 (3417)] INFO : Application: development
+[07/22/14 08:07:39 +0000 precise64 (3417)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[07/22/14 08:07:39 +0000 precise64 (3417)] INFO : Installing Net instrumentation
+[07/22/14 08:07:39 +0000 precise64 (3417)] INFO : Installing deferred Rack instrumentation
+[07/22/14 08:07:39 +0000 precise64 (3417)] INFO : Installing Rack::Builder middleware instrumentation
+[07/22/14 08:07:39 +0000 precise64 (3417)] INFO : Finished instrumentation
+[07/22/14 08:07:43 +0000 precise64 (3417)] INFO : Doing deferred dependency-detection before Rack startup
+[07/22/14 08:07:44 +0000 precise64 (3417)] ERROR : Invalid license key, please contact support@newrelic.com
+[07/22/14 08:07:44 +0000 precise64 (3417)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[07/22/14 11:19:17 +0000 precise64 (3417)] INFO : Starting Agent shutdown

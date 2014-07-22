@@ -50,7 +50,7 @@ page '/comingsoon.html', :layout => "comingsoon"
 
 activate :blog do |blog|
    page "blog/*", :layout=> :article_layout
-   blog.prefix = "blog"
+   blog.prefix = ""
    blog.sources = ":year-:month-:day-:title.html"
    blog.taglink = "tags/:tag.html"
    blog.summary_separator = /(READMORE)/

@@ -1,0 +1,310 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+/**
+ * Solarized Dark theme for reveal.js.
+ * Author: Achim Staebler
+ */
+@font-face {
+  font-family: 'League Gothic';
+  src: url("../../lib/font/league_gothic-webfont.eot");
+  src: url("../../lib/font/league_gothic-webfont.eot?#iefix") format("embedded-opentype"), url("../../lib/font/league_gothic-webfont.woff") format("woff"), url("../../lib/font/league_gothic-webfont.ttf") format("truetype"), url("../../lib/font/league_gothic-webfont.svg#LeagueGothicRegular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/**
+ * Solarized colors by Ethan Schoonover
+ */
+html * {
+  color-profile: sRGB;
+  rendering-intent: auto; }
+
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+body {
+  background: #002b36;
+  background-color: white; }
+
+body:before {
+  content: url('../../img/header-repeat.png');
+  margin-top:-.2%;
+  position: absolute;
+}
+
+.reveal {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+  letter-spacing: -0.02em;
+  color: #93a1a1; }
+
+::selection {
+  color: white;
+  background: #d33682;
+  text-shadow: none; }
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  margin: 0 0 20px 0;
+  color: rgba(0,0,0,.6);
+  font-family: "Roboto", Impact, sans-serif;
+  line-height: 0.9em;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  text-shadow: none; 
+  font-weight: 300;
+}
+
+.p {
+  font-family: "Roboto", Impact, sans-serif;
+  font-weight: 300 !important;
+}
+
+
+.reveal h1 {
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
+
+/*********************************************
+ * LINKS
+ *********************************************/
+.reveal a:not(.image) {
+  color: #268bd2;
+  text-decoration: none;
+  -webkit-transition: color .15s ease;
+  -moz-transition: color .15s ease;
+  -ms-transition: color .15s ease;
+  -o-transition: color .15s ease;
+  transition: color .15s ease; }
+
+.reveal a:not(.image):hover {
+  color: #78b9e6;
+  text-shadow: none;
+  border: none; }
+
+.reveal .roll span:after {
+  color: #fff;
+  background: #1a6091; }
+
+/*********************************************
+ * IMAGES
+ *********************************************/
+.reveal section img {
+  margin: 15px 0px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 4px solid #93a1a1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -ms-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear; }
+
+.reveal a:hover img {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: #268bd2;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+.reveal .controls div.navigate-left,
+.reveal .controls div.navigate-left.enabled {
+  border-right-color: #ed6555; }
+
+.reveal .controls div.navigate-right,
+.reveal .controls div.navigate-right.enabled {
+  border-left-color: #ed6555; }
+
+.reveal .controls div.navigate-up,
+.reveal .controls div.navigate-up.enabled {
+  border-bottom-color: #ed6555; }
+
+.reveal .controls div.navigate-down,
+.reveal .controls div.navigate-down.enabled {
+  border-top-color: #ed6555; }
+
+.reveal .controls div.navigate-left.enabled:hover {
+  border-right-color: #ed6555; }
+
+.reveal .controls div.navigate-right.enabled:hover {
+  border-left-color: #ed6555; }
+
+.reveal .controls div.navigate-up.enabled:hover {
+  border-bottom-color: #ed6555; }
+
+.reveal .controls div.navigate-down.enabled:hover {
+  border-top-color: #ed6555; }
+
+/*********************************************
+ * PROGRESS BAR
+ *********************************************/
+.reveal .progress {
+  background: rgba(0, 0, 0, 0.2); }
+
+.reveal .progress span {
+  background: #268bd2;
+  -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -ms-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -o-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
+
+/*********************************************
+ * SLIDE NUMBER
+ *********************************************/
+.reveal .slide-number {
+  color: #268bd2; }
+
+
+
+/*********************************************
+ * MODIFIED MOON FOR 966 
+ *********************************************/
+
+/* Styling for logo on the first page, binds to data-state="header1" */
+header {
+  position: absolute;
+  width: 100%;
+  top: 10%;
+  left: 80%;
+  z-index: 500;
+  font-size: 100px;
+}
+
+.header1 header:after {
+  content: url('../../img/logo.png');
+  padding-left: 40px;
+  margin-top: 40px;
+  top: 80px !important;
+}
+
+.topbar header:after {
+  content: url('../../img/header_repeat.jpg');
+  display: block;
+  height: 5px;
+  
+}
+
+/* Images */
+
+img {
+  border: 0px !important;
+  box-shadow: 0px 0px 0px !important;
+}
+
+
+/* Type */
+
+h3, h2{
+  line-height: 70px !important;
+}
+
+
+
+/* Cover */
+
+.cover h1 {
+  color: rgba(0,0,0,.4);
+  font-size: 3em;
+  font-weight: 300;
+  padding: 50px;
+  margin-top: -345px;
+}
+
+ 
+/* Smart Ass Quote*/
+
+.smartquote div {
+  background: rgba(255, 255, 255, .8);
+  padding: 40px;
+}
+
+.smartquote blockquote,
+.smartquote pre {
+  color: rgba(0, 0, 0, .6);
+  box-shadow: none;
+}
+
+.smartquote pre {
+  font-size: .8em;
+  text-align: right;
+  margin-left: -20px;
+  margin-top: 40px;
+}
+  
+
+/* Why */
+
+.why h3:first-of-type {
+  letter-spacing: 3px;
+}
+
+/* How */
+.services {
+  left: -76.5% !important;
+}
+
+#horizontal-list ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  color: rgba(0,0,0,.6);
+  width: 1400px;
+}
+
+
+#horizontal-list ul li{
+  margin-left: 80px;
+  padding: 0px 10px;
+  color: rgba(0,0,0,.6);
+  float: left;
+  border: 1px rgba(0,0,0,.1) solid;
+  height: 419px;
+}
+#horizontal-list h4 {
+  color: rgba(0,0,0,.6);
+  font-size: .808em !important;
+}
+
+#horizontal-list p {
+  text-align: center;
+  width: 312px;
+  font-size: .7em;
+  font-weight: 300;
+}
+
+#horizontal-list #blah {
+  margin-left: 60px ;
+}
+
+
+
+/* Team */
+
+.rami {
+  color: #23D7DB;
+}
+
+.usman {
+  color: #ed6555;
+}
+
+.andrus {
+  color: #f4b860;
+}
+
+/* Portfolio */
+
+.currrva , .stocks-app, .haweee  {
+  height: 680px;
+  margin-top: -90px;
+}
+
+

@@ -110,3 +110,19 @@
 [07/22/14 11:23:18 +0000 precise64 (3818)] INFO : Doing deferred dependency-detection before Rack startup
 [07/22/14 11:23:20 +0000 precise64 (3818)] ERROR : Invalid license key, please contact support@newrelic.com
 [07/22/14 11:23:20 +0000 precise64 (3818)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[12/25/14 20:29:43 +0300 ramis-mbp (7344)] INFO : Starting the New Relic agent in "development" environment.
+[12/25/14 20:29:43 +0300 ramis-mbp (7344)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[12/25/14 20:29:43 +0300 ramis-mbp (7344)] WARN : No configuration file found. Working directory = /Users/rtaibah/projects/studio-966-web/source
+[12/25/14 20:29:43 +0300 ramis-mbp (7344)] WARN : Looked in these locations (based on defaults): /Users/rtaibah/projects/studio-966-web/source/config/newrelic.yml, /Users/rtaibah/projects/studio-966-web/source/newrelic.yml, /Users/rtaibah/.newrelic/newrelic.yml, /Users/rtaibah/newrelic.yml
+[12/25/14 20:29:43 +0300 ramis-mbp (7344)] INFO : Environment: development
+[12/25/14 20:29:43 +0300 ramis-mbp (7344)] INFO : No known dispatcher detected.
+[12/25/14 20:29:43 +0300 ramis-mbp (7344)] INFO : Application: development
+[12/25/14 20:29:43 +0300 ramis-mbp (7344)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[12/25/14 20:29:43 +0300 ramis-mbp (7344)] INFO : Installing Net instrumentation
+[12/25/14 20:29:43 +0300 ramis-mbp (7344)] INFO : Installing deferred Rack instrumentation
+[12/25/14 20:29:43 +0300 ramis-mbp (7344)] INFO : Installing Rack::Builder middleware instrumentation
+[12/25/14 20:29:43 +0300 ramis-mbp (7344)] INFO : Finished instrumentation
+[12/25/14 20:29:44 +0300 ramis-mbp (7344)] INFO : Doing deferred dependency-detection before Rack startup
+[12/25/14 20:29:45 +0300 ramis-mbp (7344)] ERROR : Unknown license key
+[12/25/14 20:29:45 +0300 ramis-mbp (7344)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[12/25/14 20:32:11 +0300 ramis-mbp (7344)] INFO : Starting Agent shutdown

@@ -6,7 +6,7 @@
 }
 
 .index .main {
-    margin-bottom: 33px;
+ /*   margin-bottom: 33px;*/
 }
 .full-width {
     display: block;
@@ -239,8 +239,47 @@
 
 }
 
+.partners-logos {
+  background: #B0BEC5; 
+  background-image: url(../images/pattern.png) ;
+  padding: 30px 0px;
+  h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  .albaik, .hunger-station, .haweee, .namaa {
+  img {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    }  
+  height: 230px;
+  }
+}
 
 
+.desaturate {
+  -webkit-filter: grayscale(1);
+  -webkit-filter: grayscale(100%);
+  filter: gray;
+  filter: grayscale(100%);
+  filter: url(desaturate.svg#greyscale);
+  opacity: .6
+  
+          }
+.desaturate:hover{
+  -webkit-filter: grayscale(0);
+  -webkit-filter: grayscale(0%);
+  filter: gray;
+  filter: grayscale(0%);
+  filter: url(desaturate.svg#greyscale);
+  opacity: 1;
+}
 /* Coming Soon Page CSS */
 .comingsoon {
     background: #f1f0ea;

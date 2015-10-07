@@ -240,13 +240,12 @@
 }
 
 .partners-logos {
-  background: #B0BEC5; 
-  background-image: url(../images/pattern.png) ;
+  border-top: 1px solid rgba(0,0,0,.12);
   padding: 30px 0px;
   h2 {
     text-align: center;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #000000;
   }
 
   .albaik, .hunger-station, .haweee, .namaa {

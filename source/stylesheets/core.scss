@@ -14,17 +14,17 @@ body {
         border: 2px #eb6555 solid;
     }
 }
-.products_index {
-    .productsnav {
+.portfolio_index {
+    .portfolionav{
         border: 2px #eb6555 solid;
     }
-    .productsnav:hover {
+    .portfolionav:hover {
         border: 2px #eb6555 solid;
     }
 }
 
 @media only screen and (max-width: 40em) { 
-    .servicesnav, .productsnav, .hirenav {
+    .servicesnav, .portfolionav, .hirenav {
         border: 2px solid transparent !important;
     }
 }

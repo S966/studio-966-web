@@ -264,19 +264,13 @@
 
 .desaturate {
   -webkit-filter: grayscale(1);
-  -webkit-filter: grayscale(100%);
-  filter: gray;
   filter: grayscale(100%);
-  filter: url(desaturate.svg#greyscale);
-  opacity: .6
+  opacity: .6;
   
           }
 .desaturate:hover{
-  -webkit-filter: grayscale(0);
   -webkit-filter: grayscale(0%);
-  filter: gray;
   filter: grayscale(0%);
-  filter: url(desaturate.svg#greyscale);
   opacity: 1;
 }
 /* Coming Soon Page CSS */

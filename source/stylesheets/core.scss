@@ -188,7 +188,6 @@ header {
     height: 469px;
     width: auto;
     margin: auto;
-    margin-top: -33px;
 
     @media only screen and (min-width: 64.063em) and (max-width: 90em) { width: auto; } 
     @media only screen and (max-width: 65em){
@@ -233,6 +232,7 @@ header {
 }
 
 .newsletter {
+    margin-top: 34px;
     background: #f4b860;
     position: relative; 
     .newsletter-description {

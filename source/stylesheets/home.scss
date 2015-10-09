@@ -240,7 +240,7 @@
 }
 
 .partners-logos {
-  border-top: 1px solid rgba(0,0,0,.12);
+  border-top: 1px dotted black;
   padding: 30px 0px;
   h2 {
     text-align: center;
@@ -291,6 +291,34 @@
     text-align: center;
     font-size: 6em;
     color: #49445f;
+}
+
+/* Portfolio Page */
+
+.portfolio {
+  .portfolio-1, .portfolio-2 {
+    display: block;
+    width: auto;
+    max-width: 1330px;
+    background-position: center center !important; 
+    margin: 0 auto;
+  
+    .partner {
+      padding: 20px;
+    }
+    img {
+      width: 100%;
+      padding: 20px  0px 10px 0px;
+    }
+    h4 {
+      padding-bottom: 5px;
+    }
+    p {
+      font-size: 1.2em;
+      line-height: 1.6em;
+      color: rgba(0,0,0,.56);
+    }
+  }
 }
 
 .circle {

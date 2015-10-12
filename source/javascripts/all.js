@@ -9,17 +9,15 @@
 $(document).foundation({
     orbit: {
         animation: 'slide',
-        timer_speed: 0,
+        timer_speed: 7000,
         pause_on_hover: true,
         resume_on_mouseout: true,
         animation_speed: 500,
-        navigation_arrows: false,
-        bullets: false,
+        bullets: true,
         next_on_click: true,
-        timer: false,
+        timer: true,
         navigation_arrows: true,
         slide_number: false,
-        navigation_arrows: false,
                 }
     });
 

@@ -1,0 +1,174 @@
+body .products {
+    .map-966 {
+        margin-top: -150px;
+    }
+}
+.banner-text {
+    margin-top: 20px;
+    margin-bottom: 20px !important;
+    
+    h2 {
+        color: white;
+        text-align: center;
+    }
+}
+
+.banner-our-products {
+    margin-top: 30px;
+    .product-1, .product-2,.product-3 {
+
+        margin-bottom: 10px;
+        h1 {
+            color: black;
+            height: 230px;
+            border-radius: 50px;
+            border: 6px dotted black;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 1100%;
+        }
+    }
+    .product-2, .product-3 {
+        img {
+            border-radius: 40px;
+        }
+    }
+
+    .product-1 {
+            h3 {
+                text-transform: uppercase;
+                margin-top: 18px;
+                text-align: center;
+            }
+        }
+    }
+.our-work-banner {
+    background: url("../images/products-banner.jpg") no-repeat;
+    h1 {
+        color: black;
+        text-align: center;
+    }
+
+}
+
+.our-work-header {
+    padding-top: 45px;
+    h2 {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        @media only screen and (max-width: 40em) { 
+            font-size: 14px !important;    
+
+} 
+    }
+}
+
+.product {
+    @media only screen and (max-width: 40em) { 
+            height: 1050px;
+            }
+    @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+            height: 900px;
+            }
+    width: 1430px;
+    height: 664px;
+    overflow: hidden;
+    .currrva {
+        max-width: 1400px;
+        position: absolute;
+        overflow: hidden;
+        padding-top: 0px;
+        height: auto;
+        background-position: 0% 40%;
+
+        .icon {
+            margin: 40px 0px;
+            img {
+                margin-top: 30px;
+                margin-bottom: 20px;
+
+                }
+            h3 {
+                color: black;
+            }
+            p {
+                color: black;
+                font-size: 14pt;
+            }
+        }
+        .background {
+            img {
+                float: left;
+                @media only screen and (max-width: 40em) { 
+                    display:none; 
+                    }
+                }
+                @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+            img {
+                    float: right;
+               }     
+
+            } 
+        }
+    }
+}
+
+
+/* Portfolio Pages */
+
+
+.p-header-container {
+  .portfolio-banner {
+    margin-top: 20px;
+  }
+  h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 70px;
+    line-height: 1em;
+    font-weight: bold;
+    color: rgba(0,0,0,.87);
+  }
+}
+
+.portfolio-content {
+  padding-top: 20px;
+  min-width: 1140px;
+ .our-responsibilities {
+    h4 {
+      font-size: 18px;
+    }
+    ul {
+      background: #F9FAFA;
+      border: 1px solid rgba(0,0,0,.12);
+      width: 200px;
+      padding: 15px;
+    }
+    ul,li {
+      font-size: 14px;
+      color: rgba(0,0,0,.56);
+      list-style: none;
+      list-style-position: inside;
+      margin: 0;
+      line-height: 26px;
+    }
+  }
+  .case-study {
+    p {
+      font-size: 1.24em;
+      color: rgba(0,0,0,.56);
+      line-height: 1.7em;
+    }
+  }
+  .client-info {
+    img {
+      padding-bottom: 30px;
+      display: block;
+      margin: auto;
+    }
+    p {
+      text-align: center;
+    }
+  }
+}
+

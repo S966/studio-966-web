@@ -306,13 +306,24 @@
     .partner {
       padding: 20px;
     }
+
+    a {
+      color: black;
+    }
+
+    a:hover {
+      color: #ed6555;
+    }
+
     img {
       width: 100%;
       padding: 20px  0px 10px 0px;
     }
+
     h4 {
       padding-bottom: 5px;
     }
+
     p {
       font-size: 1.2em;
       line-height: 1.6em;

@@ -116,19 +116,63 @@ body .products {
 
 /* Portfolio Pages */
 
+.portfolio {
 
-.p-header-container {
-  .portfolio-banner {
-    margin-top: 20px;
+  .p-header-container {
+    .portfolio-banner {
+      margin-top: 20px;
+    }
+    
+    h1 {
+      text-align: center;
+      padding-top: 30px;
+      font-size: 70px;
+      line-height: 1em;
+      font-weight: bold;
+      color: rgba(0,0,0,.87);
+    }
   }
-  h1 {
-    text-align: center;
-    padding-top: 30px;
-    font-size: 70px;
-    line-height: 1em;
-    font-weight: bold;
-    color: rgba(0,0,0,.87);
-  }
+
+  .portfolio-1, .portfolio-2 {
+      display: block;
+      width: auto;
+      max-width: 1330px;
+      background-position: center center !important; 
+      margin: 0 auto;
+      
+      .logo-overlay {
+        background: #908E8A;
+      }
+    
+      .portfolio-logo{
+        padding: 20px;
+      }
+
+      a {
+        color: black;
+      }
+
+      a:hover {
+        color: #ed6555;
+      }
+
+      img {
+        width: 100%;
+        padding: 20px  0px 20px 0px;
+        border: 1px solid rgba(0,0,0,.12);
+      }
+
+      h4 {
+        padding-bottom: 5px;
+      }
+
+      p {
+        font-size: 1.2em;
+        line-height: 1.6em;
+        color: rgba(0,0,0,.56);
+      }
+
+    }
 }
 
 .portfolio-content {

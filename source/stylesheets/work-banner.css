@@ -134,7 +134,7 @@ rgba(0, 0, 0, .5) .05em .05em,
 rgba(0, 0, 0, .7) .07em .07em;
 }
 
-.postheader{background: url(images/../pattern.png) repeat-x center top;}
+.postheader{background: url(../images/pattern.png) repeat-x center top;}
 .full-banner{
     width: auto;
     max-width: 1430px;

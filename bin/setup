@@ -1,8 +1,0 @@
-#!/usr/bin/env sh
-
-# Set up dependencies.
-
-
-bundle install
-git remote add staging git@heroku.com:usmanbashir-staging.git
-git remote add production git@heroku.com:usmanbashir.git

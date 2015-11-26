@@ -26,5 +26,7 @@ newrelic.yml
 *.swp
 *.lock
 
-
+# Misc Ignore
+herokuPing.sh
+Vagrantfile
 log/newrelic_agent.log

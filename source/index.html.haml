@@ -6,11 +6,14 @@ title: Studio 966 | Beam Me Up, Scotty
     .orbit-container
       %ul.orbit{:data => {:orbit=> ""}}
         %li
-          = image_tag 'images/banners/banner-home-1.jpg'
+          - link_to 'portfolio/currrva' do
+            = image_tag 'images/banners/banner-home-1.jpg'
         %li
-          = image_tag 'images/banners/banner-home-2.jpg'
+          - link_to 'portfolio/albaik' do
+            = image_tag 'images/banners/banner-home-2.jpg'
         %li
-          = image_tag 'images/banners/banner-home-3.jpg'
+          - link_to 'portfolio/hunger-station' do
+            = image_tag 'images/banners/banner-home-3.jpg'
   .row.content
     .large-12.columns
       .row

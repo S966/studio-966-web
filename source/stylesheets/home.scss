@@ -336,7 +336,7 @@
      position: absolute; 
      bottom: 20px; 
      left: 0px; 
-     width: 100%; 
+     width: 90%; 
      font-size: 2.0em;
   }
   h1 span {
@@ -345,7 +345,11 @@
     background: rgb(0, 0, 0); /* fallback color */
     background: rgba(0, 0, 0, 0.9);
     margin-bottom: 10px;
-    padding: 10px 10px 10px 30px; 
+    padding: 10px 0px 10px 30px; 
   }
 }
 
+/* Fix to remove 15px from the right of the homepage. This seems to be an error in using foundation rows and columns. Find a better fix in the refactoring branch*/
+.logo-container {
+  width: 100% !important;
+}

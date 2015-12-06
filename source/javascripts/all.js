@@ -15,7 +15,7 @@ $(document).foundation({
         animation_speed: 500,
         bullets: false,
         next_on_click: true,
-        timer: false,
+        timer: true,
         navigation_arrows: true,
         slide_number: false,
         swipe: true,

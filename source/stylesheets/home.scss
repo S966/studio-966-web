@@ -329,3 +329,23 @@
 
 }
 
+/* Home banner captions */
+.home-banner {
+  position: absolute;
+  h1 {
+     position: absolute; 
+     bottom: 20px; 
+     left: 0px; 
+     width: 100%; 
+     font-size: 2.0em;
+  }
+  h1 span {
+    color: white; 
+    letter-spacing: -1px;  
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.9);
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 30px; 
+  }
+}
+

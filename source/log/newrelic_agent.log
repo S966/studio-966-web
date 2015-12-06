@@ -143,3 +143,18 @@
 [10/04/15 18:49:16 +0000 vagrant-ubuntu-trusty-64 (4409)] INFO : Doing deferred dependency-detection before Rack startup
 [10/04/15 18:49:22 +0000 vagrant-ubuntu-trusty-64 (4409)] ERROR : Invalid license key, please contact support@newrelic.com
 [10/04/15 18:49:22 +0000 vagrant-ubuntu-trusty-64 (4409)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[12/06/15 07:44:24 +0000 vagrant-ubuntu-trusty-64 (2599)] INFO : Starting the New Relic agent in "development" environment.
+[12/06/15 07:44:24 +0000 vagrant-ubuntu-trusty-64 (2599)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[12/06/15 07:44:24 +0000 vagrant-ubuntu-trusty-64 (2599)] WARN : No configuration file found. Working directory = /vagrant/source
+[12/06/15 07:44:24 +0000 vagrant-ubuntu-trusty-64 (2599)] WARN : Looked in these locations (based on defaults): /vagrant/source/config/newrelic.yml, /vagrant/source/newrelic.yml, /home/vagrant/.newrelic/newrelic.yml, /home/vagrant/newrelic.yml
+[12/06/15 07:44:24 +0000 vagrant-ubuntu-trusty-64 (2599)] INFO : Environment: development
+[12/06/15 07:44:24 +0000 vagrant-ubuntu-trusty-64 (2599)] INFO : No known dispatcher detected.
+[12/06/15 07:44:24 +0000 vagrant-ubuntu-trusty-64 (2599)] INFO : Application: development
+[12/06/15 07:44:24 +0000 vagrant-ubuntu-trusty-64 (2599)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[12/06/15 07:44:24 +0000 vagrant-ubuntu-trusty-64 (2599)] INFO : Installing Net instrumentation
+[12/06/15 07:44:24 +0000 vagrant-ubuntu-trusty-64 (2599)] INFO : Installing deferred Rack instrumentation
+[12/06/15 07:44:24 +0000 vagrant-ubuntu-trusty-64 (2599)] INFO : Installing Rack::Builder middleware instrumentation
+[12/06/15 07:44:24 +0000 vagrant-ubuntu-trusty-64 (2599)] INFO : Finished instrumentation
+[12/06/15 07:44:28 +0000 vagrant-ubuntu-trusty-64 (2599)] INFO : Doing deferred dependency-detection before Rack startup
+[12/06/15 07:44:29 +0000 vagrant-ubuntu-trusty-64 (2599)] ERROR : Invalid license key, please contact support@newrelic.com
+[12/06/15 07:44:29 +0000 vagrant-ubuntu-trusty-64 (2599)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.

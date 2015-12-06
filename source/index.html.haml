@@ -4,16 +4,31 @@ title: Studio 966 | Beam Me Up, Scotty
 .main
   .show-for-medium-up.full-width.banner
     .orbit-container
-      %ul.orbit{:data => {:orbit=> ""}}
+      %ul.home-banner.orbit{:data => {:orbit=> ""}}
         %li
           - link_to 'portfolio/currrva' do
             = image_tag 'images/banners/banner-home-1.jpg'
+            %h1
+              %span 
+                We just redefined 
+              %br
+              %span
+                your winning experience.
         %li
           - link_to 'portfolio/albaik' do
             = image_tag 'images/banners/banner-home-2.jpg'
+            %h1
+              %span 
+                A simplified solution to 
+              %br 
+              %span
+                get your fried chicken fix!
         %li
           - link_to 'portfolio/hunger-station' do
             = image_tag 'images/banners/banner-home-3.jpg'
+            %h1
+              %span 
+                Taking food delivery to the next level.
   .row.content
     .large-12.columns
       .row

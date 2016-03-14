@@ -30,3 +30,4 @@ newrelic.yml
 herokuPing.sh
 Vagrantfile
 log/newrelic_agent.log
+.DS_Store

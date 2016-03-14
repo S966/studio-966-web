@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "restricted area"
+AuthUserFile oud-milano/.htpasswd
+require valid-user

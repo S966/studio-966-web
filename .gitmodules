@@ -1,3 +1,6 @@
 [submodule "slides"]
 	path = slides
 	url = https://rtaibah:xJ8LT1cJhg5fEC7Fy9TstwByLJTGL6H8GLo41bzemB5XO7WsOB95UCBxlul30Svzd0F5QH8qIQMvVA7lcrjufmu9T1cwaHeXxcML@github.com/S966/slides
+[submodule "source/slides"]
+	path = source/slides
+	url = https://rtaibah:xJ8LT1cJhg5fEC7Fy9TstwByLJTGL6H8GLo41bzemB5XO7WsOB95UCBxlul30Svzd0F5QH8qIQMvVA7lcrjufmu9T1cwaHeXxcML@github.com/S966/slides

@@ -199,3 +199,23 @@
 [05/29/18 03:08:55 +0300 tango (6461)] ERROR : OpenSSL::SSL::SSLError: SSL_connect returned=1 errno=0 state=error: certificate verify failed
 [05/29/18 03:08:55 +0300 tango (6461)] INFO : Will re-attempt in 60 seconds
 [05/29/18 03:08:58 +0300 tango (6461)] INFO : Starting Agent shutdown
+[05/29/18 03:16:58 +0300 tango (16963)] INFO : Starting the New Relic agent in "development" environment.
+[05/29/18 03:16:58 +0300 tango (16963)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[05/29/18 03:16:58 +0300 tango (16963)] WARN : No configuration file found. Working directory = /home/rami/projects/studio-966-web/source
+[05/29/18 03:16:58 +0300 tango (16963)] WARN : Looked in these locations (based on defaults): /home/rami/projects/studio-966-web/source/config/newrelic.yml, /home/rami/projects/studio-966-web/source/newrelic.yml, /home/rami/.newrelic/newrelic.yml, /home/rami/newrelic.yml
+[05/29/18 03:16:58 +0300 tango (16963)] INFO : Environment: development
+[05/29/18 03:16:58 +0300 tango (16963)] INFO : No known dispatcher detected.
+[05/29/18 03:16:58 +0300 tango (16963)] INFO : Application: development
+[05/29/18 03:16:58 +0300 tango (16963)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[05/29/18 03:16:58 +0300 tango (16963)] INFO : Installing Net instrumentation
+[05/29/18 03:16:58 +0300 tango (16963)] INFO : Installing deferred Rack instrumentation
+[05/29/18 03:16:58 +0300 tango (16963)] INFO : Installing Rack::Builder middleware instrumentation
+[05/29/18 03:16:58 +0300 tango (16963)] INFO : Finished instrumentation
+[05/29/18 03:17:02 +0300 tango (16963)] INFO : Doing deferred dependency-detection before Rack startup
+[05/29/18 03:17:03 +0300 tango (16963)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[05/29/18 03:17:03 +0300 tango (16963)] ERROR : OpenSSL::SSL::SSLError: SSL_connect returned=1 errno=0 state=error: certificate verify failed
+[05/29/18 03:17:03 +0300 tango (16963)] INFO : Will re-attempt in 60 seconds
+[05/29/18 03:18:04 +0300 tango (16963)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[05/29/18 03:18:04 +0300 tango (16963)] ERROR : OpenSSL::SSL::SSLError: SSL_connect returned=1 errno=0 state=error: certificate verify failed
+[05/29/18 03:18:04 +0300 tango (16963)] INFO : Will re-attempt in 120 seconds
+[05/29/18 03:19:38 +0300 tango (16963)] INFO : Starting Agent shutdown

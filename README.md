@@ -4,7 +4,5 @@
 LICENSE
 ===============
 
-To be added.
-testing.
-
+Website for Studio 966.
 
